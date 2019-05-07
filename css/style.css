@@ -1,11 +1,18 @@
 @charset "UTF-8";
 @import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
+
+@font-face {
+  font-family: ffont;
+  src: url(Lora-Bold.ttf);
+}
+
+
 html, body {
   height: 100%;
 }
 
 body {
-  background: white;
+  background: rgb(0, 0, 0);
   overflow-x: hidden;
 }
 /*Wave*/
@@ -15,11 +22,11 @@ body {
   position: absolute;
   bottom: 0;
   left: 0;
-  background: #ffffff;
+  background: linear-gradient(#c3c3c3,#ffffff);
 }
  
 .wave {
-  background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/85486/wave.svg) repeat-x;
+  background: url(../img/6.png) repeat-x;
   position: absolute;
   top: -198px;
   width: 6400px;
@@ -81,8 +88,8 @@ body {
 .logo {
   z-index:1000;
   position: fixed;
-  left:10px;
-	top: 10px;
+  left:20px;
+	top: 20px;
 }
 
 .hamburger-shell {
@@ -119,6 +126,7 @@ body {
 	color: rgb(255, 255, 255);
   display: none;
   background-color: #000000;
+  opacity:0.8;
 	text-decoration: none;
 	font-weight: 100;
 	font-size: 50px;
@@ -130,17 +138,18 @@ body {
 
 #menu a li {
 	text-decoration: none!important;
-	padding-bottom: 10px;
+  padding-bottom: 10px;
+  font-size:3.5vw;
 	margin-bottom: 12px;
-	border-bottom: 1px solid black;
-	list-style: none;
-	color: rgb(185, 8, 8);
+  list-style: none;
+  font-family:ffont;
+	color: rgb(255, 255, 255);
 	transition: all 150ms ease;
 }
 
 #menu a li:hover {
 	color: #ffffff;
-	padding-right: 3px;
+  font-size:4vw;
 }
 
 #menu a li:hover:after {
@@ -182,11 +191,9 @@ body {
 	-webkit-animation-delay: 10ms;
 }
 
-
-
-
 /*content*/
 
 h1{
   text-align:center;
-padding-top:20vw;}
+  padding-top:20vw;
+  }
