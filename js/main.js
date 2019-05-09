@@ -59,33 +59,4 @@ $('.arrow-prev').click(function() {
   prevDot.addClass('active-dot');
 });
 
-
-
 $('.slider div:first').addClass('active-slide');
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
