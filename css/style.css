@@ -1,11 +1,17 @@
 @charset "UTF-8";
 @import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400, 300, 600, 700);
+
 
 @font-face {
   font-family: ffont;
   src: url(Lora-Bold.ttf);
 }
 
+@font-face {
+  font-family: ifont;
+  src: url(Lora-Italic.ttf);
+}
 
 html, body {
   height: 100%;
@@ -202,9 +208,20 @@ h2{
     text-align:center;
     padding-top:40px;
     font-size:4vw;
-    color:black;
+    color:black;s
     }
   
+.tag{
+  color:white;
+  text-align:center;
+}
+.info{
+  color:white;
+  text-align:justify;
+  text-align:center;
+  margin:40px;
+  font-family:ifont;
+}
 
 /*section*/
 section{
@@ -722,4 +739,58 @@ width: 120px;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   transition: all 265ms ease-in;
+}
+
+
+
+
+
+/*abbiocco*/
+
+ .btn {
+    padding: 1em 2.1em 1.1em;
+    border-radius: 3px;
+    margin: 8px 8px 8px 8px;
+    color: #fbdedb;
+    background-color: #fbdedb;
+    display: inline-block;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+    font-family: sans-serif;
+    font-weight: 800;
+    font-size: .85em;
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: none;
+    -webkit-box-shadow: 0em -0.3rem 0em rgba(0, 0, 0, 0.1) inset;
+    -moz-box-shadow: 0em -0.3rem 0em rgba(0, 0, 0, 0.1) inset;
+    box-shadow: 0em -0.3rem 0em rgba(0, 0, 0, 0.1) inset;
+    position: relative;
+}
+.btn:hover, .btn:focus {
+    opacity: 0.8;
+    text-decoration:none;
+    border-color:none;
+}
+.btn:active {
+    -webkit-transform: scale(0.80);
+    -moz-transform: scale(0.80);
+    -ms-transform: scale(0.80);
+    -o-transform: scale(0.80);
+    transform: scale(0.80);
+}
+
+/* Colours */
+
+.inner-div
+{
+text-align:center;
+margin-bottom:20px;
+}
+
+.yellow {
+    background-color: #fbce33;
+    align:center;
 }
