@@ -6,13 +6,35 @@
 
 @font-face {
   font-family: ffont;
-  src: url(Lora-Bold.ttf);
+  src: url(Poppins-BoldItalic.ttf);
+}
+
+@font-face {
+  font-family: rfont;
+  src: url(Poppins-Regular.ttf);
 }
 
 @font-face {
   font-family: ifont;
-  src: url(Lora-Italic.ttf);
+  src: url(Poppins-Bold.ttf);
 }
+
+@font-face {
+  font-family: mfont;
+  src: url(Poppins-Medium.ttf);
+}
+
+@font-face {
+  font-family: lfont;
+  src: url(Poppins-Light.ttf);
+}
+
+@font-face {
+  font-family: gfont;
+  src: url(Poppins-SemiBold.ttf);
+}
+
+
 
 html, body {
   height: 100%;
@@ -32,9 +54,9 @@ body {
 }
  
 .wave {
-  background: url(../img/6.png) repeat-x;
+  background: url(../img/4.png) repeat-x;
   position: absolute;
-  top: -13vw;
+  top: -8vw;
   width: 6400px;
   height: 198px;
   -webkit-animation: wave 7s cubic-bezier(0.36, 0.45, 0.63, 0.53) infinite;
@@ -201,6 +223,7 @@ body {
 
 h1{
   text-align:center;
+  font-family: ffont;
   color:white;
   padding-top:290px;
   }
@@ -209,22 +232,23 @@ h2{
     text-align:center;
     padding-top:40px;
     font-size:4vw;
-    font-family:ifont;
+    font-family:mfont;
     color:black;
     }
   
     
 h3{
   text-align:justify;
-  padding-top:20px;
-  font-size:2vw;
+  padding-top:10px;
+  font-size:1.5vw;
   color:black;
-  font-family:ifont;
+  font-family:lfont;
   }
 
     
   h5{
     text-align:center;
+    font-family: rfont;
     padding-top:10px;
     font-size:2vw;
     color:rgb(255, 255, 255);
@@ -236,6 +260,14 @@ h3{
     color:rgb(255, 255, 255);
     }
   
+  h7{
+     font-family: mfont;
+     font-size:2.4vw;
+      text-align:center;
+      padding-top:30px;
+      color:rgb(255, 255, 255);
+    }
+    
 .tag{
   color:white;
   text-align:center;
@@ -330,7 +362,7 @@ bottom:0;
   border: 4px solid rgb(255, 255, 255);
   margin: 20px;
   padding:10px;
-  max-height:300px;
+  max-height:400px;
 }
 
 
@@ -412,8 +444,8 @@ span:hover {
   position: absolute;
   top: 0;
   left: 0;
-  width: 90%;
-  height: 90%;
+  width: 100%;
+  height: auto;
 }
 
 .active-slide {
@@ -424,6 +456,7 @@ span:hover {
 
 .arrow-prev{
   margin-left: 5%;
+  margin-top: 5%;
   display: inline-block;
   font-size: 3rem;
   color:white;
@@ -461,6 +494,9 @@ font-weight: 700;
 margin-bottom: 10px;
 text-transform: uppercase;
 }
+p{
+  font-family: rfont;
+}
 
 .site-heading h2 span {
 color: #ff0000;
@@ -468,6 +504,7 @@ color: #ff0000;
 
 .site-heading h4 {
 display: inline-block;
+font-family: gfont;
 padding-bottom: 20px;
 position: relative;
 text-transform: capitalize;
@@ -649,6 +686,7 @@ left: 0;
 .we-offer-area .item:hover i,
 .we-offer-area .item:hover h4,
 .we-offer-area .item:hover p {
+
 color: #ffffff !important;
 }
 
@@ -702,11 +740,6 @@ width: 120px;
   margin-right: auto;
 }
 
-.footfont{
-  color:rgb(255, 255, 255);
-  text-align:center;
-  font-size:2vw;
-}
 
 .social-container {
   width: 100%;
@@ -772,6 +805,53 @@ width: 120px;
   transition: all 265ms ease-in;
 }
 
+
+.btnn {
+  box-sizing: border-box;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  background-color: #ff0000;
+  border: 2px solid #e74c3c;
+  border-radius: 0.2em;
+  color: #e74c3c;
+  cursor: pointer;
+  text-align: center;
+  display: inline-block;
+  align-self: center;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1;
+  margin: 20px;
+  padding: 0.8em 2.5em;
+  text-decoration: none;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: gfont;
+  font-weight: 700;
+}
+.btnn:hover, .btnn:focus {
+  color: rgb(0, 0, 0);
+  outline: 0;
+}
+
+.fourth {
+  border-color: #ff0000;
+  color: rgb(255, 255, 255);
+  background-image: linear-gradient(45deg, #ffffff 50%, transparent 50%);
+  background-position: 100%;
+  background-size: 400%;
+  transition: background-color 300ms ease-in-out;
+}
+.fourth:hover {
+  background-position: 0;
+  color: rgb(0, 0, 0);
+
+}
+
+
+
+
 /*abbiocco*/
 
  .btn {
@@ -813,6 +893,8 @@ width: 120px;
 {
 text-align:center;
 margin-bottom:20px;
+margin-top:30px;
+
 }
 
 .yellow {
@@ -1083,7 +1165,7 @@ margin-bottom:20px;
 padding-left:20px;
 margin-top:0;
 padding-right:8px;
-font-family: Lakeshore-Regularimport, Helvetica, sans-serif;
+font-family: gfont;
 font-weight: 200;
 }
 #section4{
