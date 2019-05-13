@@ -3,6 +3,7 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400, 300, 600, 700);
 
 
+
 @font-face {
   font-family: ffont;
   src: url(Lora-Bold.ttf);
@@ -239,10 +240,31 @@ h3{
   color:white;
   text-align:center;
 }
-.info{
+
+.tagleft{
+  color:white;
+  text-align:left;
+  padding-left:40px;
+}
+
+.tagright{
+  color:rgb(255, 255, 255);
+  text-align:right;
+  padding-right:40px;
+
+}
+.infoleft{
   color:white;
   text-align:justify;
-  text-align:center;
+  text-align:left;
+  margin:40px;
+  font-family:ifont;
+}
+
+.inforight{
+  color:rgb(255, 255, 255);
+  text-align:justify;
+  text-align:left;
   margin:40px;
   font-family:ifont;
 }
@@ -299,7 +321,7 @@ bottom:0;
 .img3{
   height:500px;
   margin-top:50px;
-  width:400px;
+  width:auto;
 }
 
 
@@ -308,7 +330,7 @@ bottom:0;
   border: 4px solid rgb(255, 255, 255);
   margin: 20px;
   padding:10px;
-  max-height:500px;
+  max-height:300px;
 }
 
 
@@ -332,9 +354,9 @@ bottom:0;
 
 
 img {
-  width: 70%;
+  width: 80%;
   vertical-align: middle;
-  margin-left:20%;
+  margin-left:15%;
 }
 
 .row {
@@ -417,19 +439,6 @@ span:hover {
 .arrow-next:hover,.arrow-prev:hover{
   color:red;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 .sectionser {
@@ -763,10 +772,6 @@ width: 120px;
   transition: all 265ms ease-in;
 }
 
-
-
-
-
 /*abbiocco*/
 
  .btn {
@@ -826,6 +831,11 @@ margin-bottom:20px;
 .orange {
     background-color: #ef5c19;
     align:center;
+}
+
+.blue {
+  background-color: #3467aa;
+  align:center;
 }
 
 
@@ -1154,3 +1164,53 @@ margin-bottom:20px;
         text-align: center;
       }
       
+
+
+
+      #quote-carousel {
+        padding: 0 10px 30px 10px;
+        margin-top: 60px;
+    }
+    #quote-carousel .carousel-control {
+        background: none;
+        color: #CACACA;
+        font-size: 2.3em;
+        text-shadow: none;
+        margin-top: 30px;
+    }
+    #quote-carousel .carousel-indicators {
+        position: relative;
+        right: 50%;
+        top: auto;
+        bottom: 0px;
+        margin-top: 20px;
+        margin-right: -19px;
+    }
+    #quote-carousel .carousel-indicators li {
+        width: 50px;
+        height: 50px;
+        cursor: pointer;
+        border: 1px solid #ccc;
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+        border-radius: 50%;
+        opacity: 0.4;
+        overflow: hidden;
+        transition: all .4s ease-in;
+        vertical-align: middle;
+    }
+    #quote-carousel .carousel-indicators .active {
+        width: 128px;
+        height: 128px;
+        opacity: 1;
+        transition: all .2s;
+    }
+    .item blockquote {
+        border-left: none;
+        margin: 0;
+    }
+    .item blockquote p:before {
+        content: "\f10d";
+        font-family: 'Fontawesome';
+        float: left;
+        margin-right: 10px;
+    }

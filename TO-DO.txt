@@ -1,3 +1,0 @@
-Animation for page-1
-logo resize
-waves fix
