@@ -62,13 +62,15 @@ $(document).ready(function () {
   var slide  = $('.slide'),
       slideAelements = $('.slide-a-child'),
       slideBelements = $('.slide-b-child'),
+      slideCelements = $('.slide-c-child'),
       slideDelements = $('.slide-d-child'),
+      slideEelements = $('.slide-e-child'),
       replay = $('button.replay');
 
 
 /*Stopping it figure here out */
   slide.each(function (i) {
-      if (i < 2) {
+      if (i < 4) {
           setTimeout(function () {
               slide.eq(i).fadeOut();
           }, 5000 * (i + 1));
@@ -92,10 +94,26 @@ $(document).ready(function () {
     });
  }
 
+ function animateSlideC() {
+  slideCelements.each(function (i) {
+      setTimeout(function () {
+          slideCelements.eq(i).addClass('is-visible');
+      }, 300 * (i + 1));
+  });
+}
+
   function animateSlideD() {
     slideDelements.each(function (i) {
         setTimeout(function () {
             slideDelements.eq(i).addClass('is-visible');
+        }, 300 * (i + 1));
+    });
+  }
+
+  function animateSlideE() {
+    slideEelements.each(function (i) {
+        setTimeout(function () {
+            slideEelements.eq(i).addClass('is-visible');
         }, 300 * (i + 1));
     });
   }
@@ -107,8 +125,16 @@ $(document).ready(function () {
   }, 5000);
 
   setTimeout(function () {
-     animateSlideD();
+     animateSlideC();
   }, 10000);
+
+  setTimeout(function () {
+    animateSlideD();
+ }, 15000);
+
+ setTimeout(function () {
+  animateSlideD();
+}, 20000);
 
 
 
