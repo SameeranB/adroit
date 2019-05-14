@@ -34,7 +34,9 @@
   src: url(Poppins-SemiBold.ttf);
 }
 
-
+* {
+  box-sizing: border-box;
+}
 
 html, body {
   height: 100%;
@@ -1481,7 +1483,7 @@ margin-bottom:20px;
 
 .footer{
   color: rgb(0, 0, 0);
-  margin-top:20px;
+  margin-top:6vh;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -1489,8 +1491,8 @@ margin-bottom:20px;
 
 
 .social-container {
-  width: 100%;
-  height:35%;
+  width: 100vw;
+  height:auto;
   background-color: #000000;
   transition: all 0.3s ease;
   max-width: 100%;
@@ -1503,7 +1505,7 @@ margin-bottom:20px;
 }
 .social-icons li {
   display: inline-block;
-  margin: 0.4em;
+  margin: 0.5vw;
   text-align: right;
   position: relative;
   font-size: 1.8em;
@@ -1545,7 +1547,6 @@ margin-bottom:20px;
   -webkit-transform: scale(2.2);
   color: rgb(255, 255, 255);
   text-align: center;
-
   background: -webkit-linear-gradient(45deg, white,white);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
