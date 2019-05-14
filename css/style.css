@@ -1489,6 +1489,12 @@ margin-bottom:20px;
   margin-right: auto;
 }
 
+@media only screen and (max-width: 600px) {
+  .footer {
+    margin-top:15vh;
+  }
+}
+
 
 .social-container {
   width: 100vw;
