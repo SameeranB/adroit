@@ -1524,6 +1524,24 @@ margin-bottom:20px;
   text-align: right;
   transition: all 265ms ease-out;
 }
+
+.social-icons j {
+  color: black;
+  position: absolute;
+  top: 17px;
+  left: 20px;
+  text-align: right;
+  transition: all 265ms ease-out;
+}
+
+.social-icons k {
+  color: black;
+  position: absolute;
+  top: 17px;
+  left: 15px;
+  text-align: right;
+  transition: all 265ms ease-out;
+}
 .social-icons a {
   display: inline-block;
   text-align: center;
@@ -1547,7 +1565,7 @@ margin-bottom:20px;
   text-align: center;
 
 }
-.social-icons a:hover i {
+.social-icons a:hover i ,.social-icons a:hover j,.social-icons a:hover k {
   transform: scale(2.2);
   -ms-transform: scale(2.2);
   -webkit-transform: scale(2.2);
