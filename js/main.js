@@ -42,10 +42,6 @@ $('.arrow-prev').click(function() {
 
 $('.slider div:first').addClass('active-slide');
 
-
-
-
-
 $('.toggle-legacy-view').on('click', function (event) {
   $('html')
     .toggleClass('csstransforms generatedcontent no-csstransforms no-generatedcontent');
