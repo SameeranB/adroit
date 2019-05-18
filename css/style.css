@@ -241,7 +241,7 @@ h3{
     text-align:center;
     font-family: rfont;
     padding-top:10px;
-    font-size:2vw;
+    font-size:1.8vw;
     color:rgb(255, 255, 255);
     }
 
@@ -381,7 +381,7 @@ img {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 70%;
+  width: 60%;
 }
 
 .row {
