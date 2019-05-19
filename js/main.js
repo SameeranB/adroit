@@ -11,7 +11,7 @@ $('.arrow-next').click(function() {
     nextDot = currentDot.next();
 
   if (nextSlide.length === 0) {
-    nextSlide = $('.slide').first();
+    nextSlide = $('.slide').second();
     nextDot = $('.dot').first();
   }
 
