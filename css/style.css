@@ -48,12 +48,85 @@ body {
   background: rgb(0, 0, 0);
   overflow-x: hidden;
 }
+/*icon vbox*/
+
+.icon_boxes
+{
+	width: 100%;
+	padding-top: 13px;
+	padding-bottom: 129px;
+}
+.icon_box_title
+{
+	padding-right: 20px;
+	
+}
+.icon_box_title h1
+{
+	line-height: 1.25;
+}
+.icon_box_button
+{
+	margin-top: 40px;
+}
+.icon_box_button:hover
+{
+	background: #452b78;
+}
+.icon_box_button:hover a
+{
+	color: #FFFFFF;
+}
+.icon_box_col
+{
+	padding-top: 21px;
+}
+.icon_box_item
+{
+	margin-bottom: 63px;
+}
+.icon_box_item:last-child
+{
+	margin-bottom: 0px;
+}
+.icon_box_item h2
+{
+  text-align:left;
+  margin-bottom: 21px;
+  font-family:mfont;
+  font-size:3vw;
+}
+.icon_box_item p
+{
+  margin-bottom: 0px;
+  font-family:lfont;
+}
+
+
+
+.fifth {
+  border-color: #ff0000;
+  color: rgb(255, 255, 255);
+  background-image: linear-gradient(45deg, #000000 50%, transparent 50%);
+  background-position: 100%;
+  background-size: 400%;
+  transition: background-color 300ms ease-in-out;
+}
+.fifth:hover {
+  background-position: 0;
+  color: rgb(253, 253, 253);
+
+}
+
+
+
+
 /*Wave*/
 .ocean {
   height: 5%;
   width: 100%;
   position: absolute;
-  bottom: 0;
+  bottom: 12px;
   left: 0;
 }
  
@@ -120,7 +193,7 @@ body {
 .logo {
   z-index:1000;
   position: fixed;
-  left:20px;
+  left:0;
 	top: 20px;
 }
 .b-a, .bar, .bar:before, .bar:after {
@@ -753,7 +826,7 @@ width: 120px;
   font-weight: 400;
   line-height: 1;
   margin: 20px;
-  padding: 0.8em 3.5em;
+  padding: 0.8em 1.5em;
   text-decoration: none;
   text-align: center;
   text-transform: uppercase;
@@ -765,6 +838,36 @@ width: 120px;
   outline: 0;
 }
 
+
+
+.btnnn {
+  box-sizing: border-box;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  background-color: #ff0000;
+  border: 2px solid #e74c3c;
+  border-radius: 0.2em;
+  color: #e74c3c;
+  cursor: pointer;
+  text-align: center;
+  display: inline-block;
+  align-self: center;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1;
+  margin: 0px;
+  padding: 0.8em 1.5em;
+  text-decoration: none;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: gfont;
+  font-weight: 700;
+}
+.btnnn:hover, .btnnn:focus {
+  color: rgb(0, 0, 0);
+  outline: 0;
+}
 .fourth {
   border-color: #ff0000;
   color: rgb(255, 255, 255);
@@ -774,6 +877,20 @@ width: 120px;
   transition: background-color 300ms ease-in-out;
 }
 .fourth:hover {
+  background-position: 0;
+  color: rgb(0, 0, 0);
+
+}
+
+.sixth {
+  border-color: #ff0000;
+  color: rgb(255, 255, 255);
+  background-image: linear-gradient(45deg, #ffffff 50%, transparent 50%);
+  background-position: 100%;
+  background-size: 400%;
+  transition: background-color 300ms ease-in-out;
+}
+.sixth:hover {
   background-position: 0;
   color: rgb(0, 0, 0);
 
@@ -839,6 +956,11 @@ text-align:center;
 margin-bottom:20px;
 margin-top:30px;
 
+}
+.outer-div
+{
+  left:0;
+text-align:left;
 }
 
 .yellow {
@@ -1594,3 +1716,5 @@ margin-bottom:20px;
   -webkit-text-fill-color: transparent;
   transition: all 265ms ease-in;
 }
+
+
