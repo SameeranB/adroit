@@ -155,3 +155,12 @@ const init = () => {
 $(() => {
   init();
 });
+
+
+//mob
+$('.features-item').on('click', function() {
+  var $this = $(this);
+  var imgsrc = $this.attr('data-src');
+  
+  $('.features-image img').attr('src', imgsrc);
+});
