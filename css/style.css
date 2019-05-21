@@ -46,7 +46,7 @@ html, body {
 
 body {
   background: rgb(0, 0, 0);  
-  overflow-x: hidden;
+  overflow-x: hidden!important;
 }
 /*icon vbox*/
 
@@ -222,7 +222,7 @@ body {
 
 .bar {
   position: fixed;
-  left: 92vw;
+  right: 3vw;
   top:5vw;
 }
 .bar:before {
@@ -388,7 +388,7 @@ section{
 
 #first{
   height:40vh;
-  overflow-x:hidden;
+  overflow-x:hidden!important;
 }
 
 /* Create two equal columns that floats next to each other */
