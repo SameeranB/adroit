@@ -48,6 +48,16 @@ body {
   background: rgb(0, 0, 0);  
   overflow-x: hidden!important;
 }
+
+.wrapper {
+  
+  overflow-x: hidden!important;
+}
+
+wrapper {
+  
+  overflow-x: hidden!important;
+}
 /*icon vbox*/
 
 .icon_boxes
