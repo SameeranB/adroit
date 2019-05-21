@@ -222,8 +222,8 @@ body {
 
 .bar {
   position: fixed;
-  right: 3vw;
-  top: 3vw;
+  left: 92vw;
+  top:5vw;
 }
 .bar:before {
   top: -10px;
