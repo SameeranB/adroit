@@ -388,6 +388,7 @@ section{
 
 #first{
   height:40vh;
+  overflow-x:hidden;
 }
 
 /* Create two equal columns that floats next to each other */
