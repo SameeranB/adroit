@@ -45,7 +45,7 @@ html, body {
 }
 
 body {
-  background: rgb(0, 0, 0);
+  background: rgb(0, 0, 0);  
   overflow-x: hidden;
 }
 /*icon vbox*/
@@ -117,8 +117,6 @@ body {
   color: rgb(253, 253, 253);
 
 }
-
-
 
 
 /*Wave*/
@@ -1284,7 +1282,6 @@ left:0;
 top:0;
 bottom:0;
 }
-
 /* Clear floats after the columns */
 .rown:after {
 content: "";
