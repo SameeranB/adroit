@@ -132,12 +132,8 @@ $(document).ready(function () {
   animateSlideD();
 }, 20000);
 
-
-
  replay.on('click', function () {
    location.reload(true);
  });
 
 });
-
-
