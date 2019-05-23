@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Adroit Alliance</title>
+    <title>Adroit Alliance | Grab-N-Win</title>
     <link rel="shortcut icon" href="../img/icon.ico">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Bootstrap CSS -->
@@ -12,94 +12,165 @@
     <!-- Owl carousel -->
     <link rel="stylesheet" href="../css/owl.carousel.min.css">
     <!-- Main css -->
+    <link href="../css/gnw.css" rel="stylesheet">
 
     <link rel="stylesheet" href="https://demo.voidcoders.com/htmldemo/fitgear/main-files/assets/css/animate.css">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
-    <link href="../css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-</head>
-<body>
-    <a class="logo">
-      <img src="../img/loo.png">
-    </a>
+    <style>
 
-    <a class="hamburger-shell">
-        <div style="background-color:#ef5c19" class="hamb top"></div>
-          <div style="background-color:#ef5c19" class="hamb middle"></div>
-
-      <ul id="menu">
-          <a href="../index.html"> <li>Home</li></a>
-          <a href="#row"> <li>Who are We?</li></a>
-          <a href="#work"> <li>Our Work</li></a>
-          <a href="#services"> <li>Our Services</li></a>
-          <a href="#careers"> <li>Careers</li></a>
-          <a href="#footer"> <li>Reach Us</li></a>
-      </ul>
-    </a>
-
-  </header>
-    
+        .b-a, .bar, .bar:before, .bar:after {
+          transition: all .25s;
+          content: "";
+          position: absolute;
+          right: 0;
+          height: 5px;
+          width: 45px;
+          background-color: #ef5c19;
+        }
+        
+        .bar {
+          position: fixed;
+          right: 3vw;
+          top: 3vw;
+        }
+        .bar:before {
+          top: -10px;
+        }
+        .bar:after {
+          top: 10px;
+        }
+        
+        .b-a-expanded, .menu-expanded .bar:before, .menu-expanded .bar:after {
+          transition: all .25s;
+          top: -0px;
+        }
+        
+        
+              </style>
+        </head>
+        <body><a class="logo">
+            <img src="../img/ologo.png">
+          </a>
+        
+          <div class="menu-collapsed">
+              <div class="bar"></div>
+              <nav>
+                 <ul><br>
+                    <a href="../index.html">Home</a>
+                    <a href="../index.html#about-us">Who Are We?</a>
+                    <a href="../index.html#success-stories">Success Stories</a>
+                    <a href="../index.html#services">Our Solutions</a>
+                    <a href="#footer">Contact Us</a>
+                 </ul>
+              </nav>
+            </div>
+          
   <!--Information-->
-<br>
-<h2 style="color:white"><b>Grab N Win</b></h2>
-<h4 class="tag">In-house textile monitoring system on the go<br><br>
-  </h4>
 
-<h4 class="tagleft">The Problem</h4>
-  <p class="infoleft">This Garment Company in Milan Mall, Mumbai wanted to expand their business nationally and internationally and wanted to change their management system from the old pen-paper
-     to the new tech friendly approach. They contacted us and we were happy to help!</p>
-<h4 class="tagleft">Our Solution</h4>
-<p class="inforight">With the increasing demand of e-commerce websites for large and profitable sales, we designed and developed a website for GNW and marketed
-   them such that their sales increased nationally while they operated from Mumbai itself.<br><br>The app: The mobile app focuses on transferring all their written documents, bills, stocks, etc. from the hardcopy to the app itself. Their staff can upload about their new fabric purchases, bulk orders, bills, sent packages and other in-house activities live on the app, thus track their progress and stay updated to the ongoing. 
-   The staff can update about their clothing fabrics which are sent /received for:<br><br>
-   - Washing<br>
-- Cutting<br>
-- Making<br>
-- Stocks<br>
-- Finishing<br>
-- Kaj Department<br>
-- Bills and Packaging<br>
+<h2 style="color:#ef5c19;"><b>Grab-n-Win</b></h2>
+<h4 style="color:#ef5c19" class="tag">In-House Textile Monitoring System On The Go</h4> 
 
-  </p>
-
-
-
+<div class="carousel">
+    <div class="carousel__control">
+    </div>
+<div class="carousel__stage">
+    <div class="spinner spinner--left">
+        <div class="spinner__face js-active" data-bg="#F8F8F8">
+            <div class="content" data-type="foodcamp">
+                <div class="content__left">
+                </div>
+             <div class="content__right">
+                    <div class="content__main">
+                        <h1 style="color:black">The Problem</h1><br>
+                            <p style="color:black">This Garment Company in Milan Mall, mumbai wanted to expand their business nationaly and internationaly and wanted to change 
+                              their management system from the old pen-paper to the new tech friendly approach. They contacted us and we were happy to help!</p>
+                        </div>
+                
+                    </div>
+                </div>
+            </div>
+            <div class="spinner__face" data-bg="#F8F8F8">
+                <div class="content" data-type="queue">
+                    <div class="content__left">
+                        
+                    </div>
+                    <div class="content__right">
+                            <div class="content__main"><h1 style="color:black">Our Solution</h1>
+                                    <p style="color:black"><br>With the increasing demand of e-commerce websites for large and profitable sales, we designed and developed a website for GNW and marketed them such that their sales increased nationaly while they operated from mumbai itself.
+                                      The app: The mobile app focuses on tranferring all their written documents, bills, stocks, etc from the hardcopy to the app itself. Their staff can upload about their new fabric purchases, bulk orders, bills, sent packages and other inhouse activities live on the app, thus track their progress and stay updated to the ongoings. The staff can update about their clothing fabrics which are sent /recieved for:
+                                      Washing, Cutting, Making, Stocks, Finishing, Kaj Dept, Bills and Packaging</p>
+                            </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</div>
+    <!--
 <div class="inner-div">
-  <a  target="blank" href="http://www.alliancecorporation.in" class="btn orange" style="color:black;">VIEW WEBSITE</a>
+    <a target="blank" href="https://abbiocco.herokuapp.com"><button class="btnn fourth">View Website</button></a>
+    <a target="blank" href="https://play.google.com/store/apps/details?id=e.dell.foodcamp&pageId=none"><button class="btnn fourth">Download App</button></a>
 
-  <h4 class="tag"style="color:rgb(255, 255, 255);"><br><br>Want a similar system or have something new in mind?<br><br><a class="btn orange" style="color:black;" href="reach-us.html">Contact Us !</a>
-  </h4>
-</div>
-
-
-<div style="background-color:white" >
-   
-
-    <img style="margin-top:40px;margin-bottom:40px" src="../img/mock5.png">
-
-</div>
+</div><br>-->
+  
+<section id="features">
+  <div class="features-inner">
+    <div class="features-image"><img src="../img/abbi1.png"/></div>
+    <ul class="features-list list-1">
+      <li class="features-item" data-src="../img/abbi1.png"><br>
+        <h3 class="features-item-header">Feature 1</h3>
+        <p class="features-item-text">Search easily for Restaurants and Cafes in your location.</p>
+      </li>
+      <li class="features-item" data-src=../img/abbi3.png>
+        <h3 class="features-item-header">Feature 2</h3>
+        <p class="features-item-text">View menus, user reviews, and all the other information you need to choose a restaurant for Dine In or Takeaway.</p>
+      </li>
+      <li class="features-item" data-src=../img/abbi4.png>
+        <h3 class="features-item-header">Feature 3</h3>
+        <p class="features-item-text">Browse our theme-based curated lists to discover the best dishes of your favorite restaurants, 
+          offers provided by them and their happy hours.</p>
+      </li>
+    </ul>
+    <ul class="features-list list-2">
+      <li class="features-item" data-src=../img/abbi5.png>
+        <h3 class="features-item-header">Feature 4</h3>
+        <p class="features-item-text">Rate and review restaurants you've been to.</p>
+      </li>
+      <li class="features-item" data-src=../img/abbi6.png>
+        <h3 class="features-item-header">Feature 5</h3>
+        <p class="features-item-text">Maintain an easy reference list of your favorites or places you want to visit with favorite star marks.</p>
+      </li>
+      <li class="features-item" data-src="../img/abbi2.png">
+        <h3 class="features-item-header">Feature 6</h3>
+        <p class="features-item-text"> In-app pre-ordering of food at all partner restaurants which means your food will be ready by the time you reach</p>
+      </li>
+    </ul>
+  </div>
+</section>
 
 
   <!--footer-->
-  <h2 style="color:white;">Connect with Us!</h2>
-  <img id="footer" class="foot" src="../img/card11.png" alt="Paris" style="width:50%;">
-<!--<p class="footfont">Lets make something great!</p>-->
-<p class="footfont">...bridging your present with the future !</p>
-
+  <div class="hundred">
+    <img id="footer" class="foot" src="../img/contact.png" alt="" style="width:50%;">
+<br><br>
 <div class="social-container">
-      <div class="social-icons">
-      <li><a href="https://www.instagram.com/abbiocco.adroitalliance/" target="_blank"><i class="fa fa-instagram"></i></a></li>
-      <li><a href="https://www.facebook.com/abbiocco.adroitalliance/" target="_blank"><i class="fa fa-facebook"></i></a></li>
-      <li><a href="https://www.facebook.com/abbiocco.adroitalliance/" target="_blank"><i class="fa fa-twitter"></i></a></li>         
-      <li><a href="https://www.facebook.com/abbiocco.adroitalliance/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
-      <li><a href="mailto:abbiocco.adroitalliance@gmail.com?Subject=Feedback%20Form" target="_top"><i class="fa fa-envelope-o"></i></a></li>
-      <h6 >+91 9892334332  |  adroitalliance@gmail.com</h6><br>
+           <div class="social-icons">
+           <li><a href="https://www.instagram.com/adroitalliance/" target="_blank"><i class="fa fa-instagram"></i></a></li>
+           <li><a href="https://www.facebook.com/adroitalliance/" target="_blank"><j class="fa fa-facebook"></j></a></li>
+           <li><a href="https://twitter.com/AllianceAdroit" target="_blank"><i class="fa fa-twitter"></i></a></li>         
+           <li><a href="https://www.linkedin.com/company/adroit-alliance/about/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+           <li><a href="mailto:allianceadroit@gmail.com?Subject=Enquiry" target="_top"><k class="fa fa-envelope-o"></k></a></li>
+         <br>  <h6 >+91 90037 32045  |  allianceadroit@gmail.com</h6><br>
 </div>
 
 <footer class="text-center">
-  <!-- Copyright removal is not prohibited! -->
-  <a style="font-family:Helvica"><b style="font-size:13px;color:white">COPYRIGHT © 2019. ALL RIGHTS RESERVED.</b></a>
+       <!-- Copyright removal is not prohibited! -->
+       <a style="font-family:Helvica"><b style="font-size:13px;color:white"><br><br><br>COPYRIGHT © 2019. ALL RIGHTS RESERVED.</b></a>
 </footer>
+</div>
+
 </div>
   
   <!-- jQuery and Bootstrap -->
@@ -109,6 +180,8 @@
   <script src="../js/owl.carousel.min.js"></script>
   <!-- Custom JS -->
   <script src="../js/main.js"></script>
+  <script src="../js/success-stories.js"></script>
+
   <!-- particle scripts -->
   <!--Start of Tawk.to Script-->
   <script type="text/javascript">

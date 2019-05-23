@@ -61,15 +61,16 @@ $(document).ready(function () {
       slideCelements = $('.slide-c-child'),
       slideDelements = $('.slide-d-child'),
       slideEelements = $('.slide-e-child'),
+      slideFelements = $('.slide-f-child'),
       replay = $('button.replay');
 
 
 /*Stopping it figure here out */
   slide.each(function (i) {
-      if (i < 4) {
+      if (i < 5) {
           setTimeout(function () {
               slide.eq(i).fadeOut();
-          }, 5000 * (i + 1));
+          }, 3000 * (i + 1));
       }
   });
 
@@ -113,24 +114,36 @@ $(document).ready(function () {
         }, 300 * (i + 1));
     });
   }
+  
+  function animateSlideF() {
+    slideFelements.each(function (i) {
+        setTimeout(function () {
+            slideFelements.eq(i).addClass('is-visible');
+        }, 300 * (i + 1));
+    });
+  }
 
   animateSlideA();
 
   setTimeout(function () {
      animateSlideB();
-  }, 5000);
+  }, 3000);
 
   setTimeout(function () {
      animateSlideC();
-  }, 10000);
+  }, 6000);
 
   setTimeout(function () {
     animateSlideD();
- }, 15000);
+ }, 9000);
 
  setTimeout(function () {
-  animateSlideD();
-}, 20000);
+  animateSlideE();
+}, 12000);
+
+ setTimeout(function () {
+  animateSlideF();
+}, 15000);
 
  replay.on('click', function () {
    location.reload(true);

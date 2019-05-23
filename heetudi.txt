@@ -1,11 +1,6 @@
 wave
 animation
 Careeers page
-review
-
-ABout us content
-
-
 
 
 
@@ -80,6 +75,13 @@ Customers happy, shop-owners happy,we happy!
 WANT A SIMILAR APP OR HAVE SOMETHING NEW IN MIND ? CONTCT US >>>
 
 
+Construction:
+
+
+Problem 
+
+
+soln
 
 
 
@@ -92,6 +94,10 @@ WANT A SIMILAR APP OR HAVE SOMETHING NEW IN MIND ? CONTCT US >>>
 
 
 
+
+
+
+ef5c19
 
 
 
