@@ -4,89 +4,184 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Adroit Alliance</title>
-    <link rel="shortcut icon" href="img/icon.ico">
+    <title>Adroit Alliance | SuperMarket</title>
+    <link rel="shortcut icon" href="../img/icon.ico">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
     <!-- Owl carousel -->
-    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="../css/owl.carousel.min.css">
     <!-- Main css -->
+    <link href="../css/supermarket.css" rel="stylesheet">
 
     <link rel="stylesheet" href="https://demo.voidcoders.com/htmldemo/fitgear/main-files/assets/css/animate.css">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
-    <link href="css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-</head>
-<body>
-    <a class="logo">
-      <img src="img/loo.png">
-    </a>
+    <style>
 
-    <a class="hamburger-shell">
-        <div style="background-color:#ffdd00" class="hamb top"></div>
-          <div style="background-color:#ffdd00" class="hamb middle"></div>
-
-      <ul id="menu">
-          <a href="index.html"> <li>Home</li></a>
-          <a href="#row"> <li>Who are We?</li></a>
-          <a href="#work"> <li>Our Work</li></a>
-          <a href="#services"> <li>Our Services</li></a>
-          <a href="#careers"> <li>Careers</li></a>
-          <a href="#footer"> <li>Reach Us</li></a>
-      </ul>
-    </a>
-
-  </header>
-    
+        .b-a, .bar, .bar:before, .bar:after {
+          transition: all .25s;
+          content: "";
+          position: absolute;
+          right: 0;
+          height: 5px;
+          width: 45px;
+          background-color: #ffb000;
+        }
+        
+        .bar {
+          position: fixed;
+          right: 3vw;
+          top: 3vw;
+        }
+        .bar:before {
+          top: -10px;
+        }
+        .bar:after {
+          top: 10px;
+        }
+        
+        .b-a-expanded, .menu-expanded .bar:before, .menu-expanded .bar:after {
+          transition: all .25s;
+          top: -0px;
+        }
+        
+        
+              </style>
+        </head>
+        <body><a class="logo">
+            <img src="../img/ylogo.png">
+          </a>
+        
+          <div class="menu-collapsed">
+              <div class="bar"></div>
+              <nav>
+                 <ul><br>
+                    <a href="../index.html">Home</a>
+                    <a href="../index.html#about-us">Who Are We?</a>
+                    <a href="../index.html#success-stories">Success Stories</a>
+                    <a href="../index.html#services">Our Services</a>
+                    <a href="#footer">Contact Us</a>
+                 </ul>
+              </nav>
+            </div>
+          
   <!--Information-->
-<br>
-<h2 style="color:white"><b>Abbiocco</b></h2>
-<h4 class="tag">A Pre-Food Ordering System</h4>
-  <p class="info">Abbiocco is proud to be an accounting organization that helps business clients make sound financial decisions on a daily basis. We are fully committed to helping you succeed by performing the critical accounting functions that keep you financially solvent and compliant with financial regulations.
-  Our staff; full of financial analysts, specialists and certified business accountants, are well known for providing top-notch accounting support to our business clients. We are proud to work with successful organizations that rely on our services to maintain and grow their businesses.
-  We offer our accounting services on a time-and-materials basis. This allows you to take advantage of any of our services as needed and prevents you from paying fees for services that you may only use from time to time.
-<br><br>  </p>
-<div class="inner-div">
-  <a  target="blank" href="https://abbiocco.herokuapp.com/index.html" class="btn yellow" style="color:black;">VIEW WEBSITE</a>
+
+<h2 style="color:#ffb000;"><b>Super Market App</b></h2>
+<h4 style="color:#ffb000" class="tag">The Most Unique Online Grocery Store</h4> 
+
+<div class="carousel">
+    <div class="carousel__control">
+    </div>
+<div class="carousel__stage">
+    <div class="spinner spinner--left">
+        <div class="spinner__face js-active" data-bg="#F8F8F8">
+            <div class="content" data-type="foodcamp">
+                <div class="content__left">
+                </div>
+             <div class="content__right">
+                    <div class="content__main">
+                        <h1 style="color:black">The Problem</h1><br>
+                            <p style="color:black">Going to shops daily for grocery needs becomes a tedious task for the local customers.
+                              Shop owners too find the need to manage customers in their shop in a way that no customer feels unattended.</p>
+                        </div>
+                
+                    </div>
+                </div>
+            </div>
+            <div class="spinner__face" data-bg="#F8F8F8">
+                <div class="content" data-type="queue">
+                    <div class="content__left">
+                        
+                    </div>
+                    <div class="content__right">
+                            <div class="content__main"><h1 style="color:black">Our Solution</h1>
+                                    <p style="color:black"><br>Our customer-client; two-way app, is for all the grocery shops who plan on bringing a smart change for the useablity & satisfaction for their customers. The customers can order their products through this app and choose to either deliver at home, or take away on their own.
+                                      The shop keepers on the other hand can keep the groceries ready for their customers and thus save time and effort.
+                                      <br><br>
+                                      Customers happy, shop-owners happy,we happy!</p>
+                            </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
 </div>
-
-<div style="background-color:white" >
-    <img style="margin-top:40px;margin-bottom:40px" src="img/mock1.png">
-
-</div>
-
-
-
-
     
+<div class="inner-div">
+    <a target="blank" href="https://abbiocco.herokuapp.com"><button class="btnn fourth">View Website</button></a>
+    <a target="blank" href="https://play.google.com/store/apps/details?id=e.dell.foodcamp&pageId=none"><button class="btnn fourth">Download App</button></a>
+
+</div><br>
+  
+<section id="features">
+  <div class="features-inner">
+    <div class="features-image"><img src="../img/abbi1.png"/></div>
+    <ul class="features-list list-1">
+      <li class="features-item" data-src="../img/abbi1.png"><br>
+        <h3 class="features-item-header">Feature 1</h3>
+        <p class="features-item-text">Search easily for Restaurants and Cafes in your location.</p>
+      </li>
+      <li class="features-item" data-src=../img/abbi3.png>
+        <h3 class="features-item-header">Feature 2</h3>
+        <p class="features-item-text">View menus, user reviews, and all the other information you need to choose a restaurant for Dine In or Takeaway.</p>
+      </li>
+      <li class="features-item" data-src=../img/abbi4.png>
+        <h3 class="features-item-header">Feature 3</h3>
+        <p class="features-item-text">Browse our theme-based curated lists to discover the best dishes of your favorite restaurants, 
+          offers provided by them and their happy hours.</p>
+      </li>
+    </ul>
+    <ul class="features-list list-2">
+      <li class="features-item" data-src=../img/abbi5.png>
+        <h3 class="features-item-header">Feature 4</h3>
+        <p class="features-item-text">Rate and review restaurants you've been to.</p>
+      </li>
+      <li class="features-item" data-src=../img/abbi6.png>
+        <h3 class="features-item-header">Feature 5</h3>
+        <p class="features-item-text">Maintain an easy reference list of your favorites or places you want to visit with favorite star marks.</p>
+      </li>
+      <li class="features-item" data-src="../img/abbi2.png">
+        <h3 class="features-item-header">Feature 6</h3>
+        <p class="features-item-text"> In-app pre-ordering of food at all partner restaurants which means your food will be ready by the time you reach</p>
+      </li>
+    </ul>
+  </div>
+</section>
+
+
   <!--footer-->
-  <img id="footer" class="foot" src="img/card11.png" alt="Paris" style="width:50%;">
-  <!--<p class="footfont">Lets make something great!</p>-->
-  <p class="footfont">...bridging your present with the future !</p>
-  
-  <div class="social-container">
-              <div class="social-icons">
-              <li><a href="https://www.instagram.com/abbiocco.adroitalliance/" target="_blank"><i class="fa fa-instagram"></i></a></li>
-              <li><a href="https://www.facebook.com/abbiocco.adroitalliance/" target="_blank"><i class="fa fa-facebook"></i></a></li>
-              <li><a href="https://www.facebook.com/abbiocco.adroitalliance/" target="_blank"><i class="fa fa-twitter"></i></a></li>         
-              <li><a href="https://www.facebook.com/abbiocco.adroitalliance/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
-              <li><a href="mailto:abbiocco.adroitalliance@gmail.com?Subject=Feedback%20Form" target="_top"><i class="fa fa-envelope-o"></i></a></li>
-  </div>
-  
-  <footer class="text-center">
-          <!-- Copyright removal is not prohibited! -->
-          <a style="font-family:Helvica"><b style="font-size:13px;color:white">COPYRIGHT © 2019. ALL RIGHTS RESERVED.</b></a>
-  </footer>
-  </div>
-  
+  <div class="hundred">
+    <img id="footer" class="foot" src="../img/contact.png" alt="" style="width:50%;">
+<br><br>
+<div class="social-container">
+           <div class="social-icons">
+           <li><a href="https://www.instagram.com/adroitalliance/" target="_blank"><i class="fa fa-instagram"></i></a></li>
+           <li><a href="https://www.facebook.com/adroitalliance/" target="_blank"><j class="fa fa-facebook"></j></a></li>
+           <li><a href="https://twitter.com/AllianceAdroit" target="_blank"><i class="fa fa-twitter"></i></a></li>         
+           <li><a href="https://www.linkedin.com/company/adroit-alliance/about/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+           <li><a href="mailto:allianceadroit@gmail.com?Subject=Enquiry" target="_top"><k class="fa fa-envelope-o"></k></a></li>
+         <br>  <h6 >+91 90037 32045  |  allianceadroit@gmail.com</h6><br>
+</div>
+
+<footer class="text-center">
+       <!-- Copyright removal is not prohibited! -->
+       <a style="font-family:Helvica"><b style="font-size:13px;color:white"><br><br><br>COPYRIGHT © 2019. ALL RIGHTS RESERVED.</b></a>
+</footer>
+</div>
+
+</div>
   <!-- jQuery and Bootstrap -->
-  <script src="js/jquery-3.2.1.min.js"></script>
-  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="../js/jquery-3.2.1.min.js"></script>
+  <script src="../js/bootstrap.bundle.min.js"></script>
   <!-- Plugins JS -->
-  <script src="js/owl.carousel.min.js"></script>
+  <script src="../js/owl.carousel.min.js"></script>
   <!-- Custom JS -->
-  <script src="js/main.js"></script>
+  <script src="../js/main.js"></script>
+  <script src="../js/success-stories.js"></script>
+
   <!-- particle scripts -->
   <!--Start of Tawk.to Script-->
   <script type="text/javascript">

@@ -69,35 +69,34 @@ Shop owners too find the need to manage customers in their shop in a way that no
 
 THE SOLUTION - Our customer-client; two-way app, is for all the grocery shops who plan on bringing a smart change for the useablity & satisfaction for their customers. The customers can order their products through this app and choose to either deliver at home, or take away on their own.
 The shop keepers on the other hand can keep the groceries ready for their customers and thus save time and effort.
-
+<br><br>
 Customers happy, shop-owners happy,we happy!
 
-WANT A SIMILAR APP OR HAVE SOMETHING NEW IN MIND ? CONTCT US >>>
+------------
 
 
-Construction:
+FALAH: 
+The PROBLEM -Designing, launching and running a new business becomes tedious for young entrepenuers who work independently. Falah Constructions is one such company who needed a platform where they could make their tasks easier and promote themselves.
 
+THE SOLUTION -  We developed a mobile application for Falah Constructions where they could keep a track of all their projects and sites, number of masons, carpenters, labourers in each site and other such details which helped them get the latest data by a single click which they could access from anywhere instead of writing the details down in confusion.
 
-Problem 
+---------
+broca:
 
+The PROBLEM - Dyslexia is a general term for disorder that involve difficulty in learning to read or interpret words, letters, and other symbols. Such children find it difficult to cope up in school as their pace and way of learning is different then what is generally followed in schools.
 
-soln
-
-
-
-
-
-
-
+THE SOLUTION – Keeping the problems faced by people suffering from dyslexia, we created a mobile application which helps in the process of their learning in the pace and pattern comfortable to them. Since they grasp more by hearing and seeing then listening, the application uses features like text to speech, alphabet calibration and spell checks which teaches students in a fun way.
 
 
 
+----------
 
+PK:
 
+The PROBLEM - 
 
+THE SOLUTION 
 
-
-ef5c19
 
 
 
