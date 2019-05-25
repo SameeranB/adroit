@@ -232,6 +232,8 @@ margin-top:10px;
 .carousel__control {
   position: absolute;
   width: 50px;
+  height: 100px;
+
   background: #22a022;
   right: 0;
   top: 0;

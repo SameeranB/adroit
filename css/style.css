@@ -122,6 +122,8 @@ wrapper {
 {
   margin-bottom: 0px;
   font-family:rfont;
+    font-size:1.2vw;
+
   color:black;
   text-align:justify;
 }
@@ -231,10 +233,10 @@ wrapper {
 .menu-collapsed {
   transition: all .25s;
   position: fixed;
-  top: 10px;
-  right: 19px;
-  height: 36px;
-  width: 36px;
+  top: 4vw;
+  right: 3vw;
+  height: 25px;
+  width: 4vw;
   z-index: 1000;
   cursor: pointer;
 }
@@ -343,6 +345,15 @@ h3{
   .viewab h5{
     text-align:center;
     font-family: rfont;
+    padding-top:5px;
+    font-size:1vw;
+    color:rgb(255, 255, 255);
+  }
+  
+  .slide a:hover{
+    text-align:center;
+    font-family: rfont;
+    text-decoration: none;
     padding-top:5px;
     font-size:1vw;
     color:rgb(255, 255, 255);
@@ -1979,12 +1990,14 @@ text-align: center;
 }
 .testimonial4_slides p {
   color: #ffffff;
-  font-size: 20px;
+  font-size: 2vw;
+  font-family:yfont;
   line-height: 1.4;
   margin: 40px 0 20px 0;
 }
 .testimonial4_slides h4 {
 color: #ffffff;
+font-family:ffont;
 font-size: 22px;
 }
 
@@ -1996,3 +2009,5 @@ padding-bottom:50px;
   height: 35px;
 }
 /* ------testimonial  close-------*/
+
+
