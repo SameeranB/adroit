@@ -70,7 +70,7 @@ $(document).ready(function () {
       if (i < 5) {
           setTimeout(function () {
               slide.eq(i).fadeOut();
-          }, 3000 * (i + 1));
+          }, 5500 * (i + 1));
       }
   });
 
@@ -156,4 +156,11 @@ $(document).ready(function () {
 
 
 
-
+$(document).ready(function() {
+ 
+  // Fakes the loading setting a timeout
+    setTimeout(function() {
+        $('body').addClass('loaded');
+    }, 2500);
+ 
+});
