@@ -161,8 +161,8 @@ wrapper {
   top: -9vw;
   width: 6400px;
   height: 198px;
-  -webkit-animation: wave 3s cubic-bezier(0.36, 0.45, 0.63, 0.53) infinite;
-          animation: wave 3s cubic-bezier(0.36, 0.45, 0.63, 0.53) infinite;
+  -webkit-animation: wave 2s cubic-bezier(0.36, 0.45, 0.63, 0.53) infinite;
+          animation: wave 2s cubic-bezier(0.36, 0.45, 0.63, 0.53) infinite;
   -webkit-transform: translate3d(0, 0, 0);
           transform: translate3d(0, 0, 0);
 }
