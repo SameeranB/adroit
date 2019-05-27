@@ -152,10 +152,6 @@ $(document).ready(function () {
 });
 
 
-
-
-
-
 $(document).ready(function() {
  
   // Fakes the loading setting a timeout

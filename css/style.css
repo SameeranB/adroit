@@ -156,13 +156,13 @@ wrapper {
 }
  
 .wave {
-  background: url(../img/try.png) repeat-x;
+  background: url(../img/apnatime.png) repeat-x;
   position: absolute;
   top: -9vw;
   width: 6400px;
   height: 198px;
-  -webkit-animation: wave 2s cubic-bezier(0.36, 0.45, 0.63, 0.53) infinite;
-          animation: wave 2s cubic-bezier(0.36, 0.45, 0.63, 0.53) infinite;
+  -webkit-animation: wave 1.6s cubic-bezier(0.36, 0.45, 0.63, 0.53) infinite;
+          animation: wave 1.6 cubic-bezier(0.36, 0.45, 0.63, 0.53) infinite;
   -webkit-transform: translate3d(0, 0, 0);
           transform: translate3d(0, 0, 0);
 }
@@ -606,8 +606,8 @@ text-transform: uppercase;
 border-radius: 100%;
 -webkit-box-shadow: none;
 box-shadow: none;
--webkit-transition: all 0.4s cubic-bezier(0.3,1,0,1);
-transition: all 0.4s cubic-bezier(0.3,1,0,1);
+-webkit-transition: all 0.3s cubic-bezier(0.3,1,0,1);
+transition: all 0.3s cubic-bezier(0.3,1,0,1);
 }
 .success4_control_button .carousel-control.left{
 left: 7%;
