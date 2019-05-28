@@ -268,7 +268,7 @@ wrapper {
 
 @media screen and (max-width: 600px) {
 .bar{
-  top:202px;
+  top:50px;
 }
 }
 .bar:before {
