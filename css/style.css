@@ -696,11 +696,6 @@ text-align: center;
   margin-right: auto;
   width: 100%;
 }
-@media only screen and (max-width: 600px) {
-.success4_slides img {
-  width:140%;
-}
-}
 .success4_slides p {
   color: #ffffff;
   font-size: 2vw;
