@@ -253,6 +253,13 @@ wrapper {
   z-index: 1000;
   cursor: pointer;
 }
+@media screen and (max-width: 600px) {
+.menu-collapsed{
+  top: 20px;
+  right:10px;
+}
+}
+
 .menu-collapsed ul {
   transition: all 0s;
   position: fixed;
