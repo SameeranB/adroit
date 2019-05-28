@@ -383,6 +383,25 @@ h3{
     font-size:1vw;
     color:rgb(255, 255, 255);
   }
+  @media screen and (max-width: 600px) {
+  
+    h5{
+      text-align:center;
+      font-family: rfont;
+      padding-top:22px;
+      font-size:3vw;
+      color:rgb(255, 255, 255);
+      }
+      
+    .viewab h5{
+      text-align:center;
+      font-family: rfont;
+      padding-top:5px;
+      font-size:2vw;
+      color:rgb(255, 255, 255);
+    }
+  
+  }
   
   .success a:hover{
     text-align:center;
@@ -506,7 +525,7 @@ bottom:0;
 }
 
 
-/*succeess*/
+/*success*/
 .success {
   background-color:black;
   border: 4px solid rgb(255, 255, 255);
