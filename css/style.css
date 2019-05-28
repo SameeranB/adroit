@@ -511,7 +511,7 @@ bottom:0;
   background-color:black;
   border: 4px solid rgb(255, 255, 255);
   margin: 2vw;
-  max-height:50vh;
+  max-height:100vh;
   max-width:94.5vw;}
 @media screen and (max-width: 600px) {
  .success{ 
