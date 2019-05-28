@@ -515,7 +515,10 @@ bottom:0;
   max-width:94.5vw;}
 
   @media only screen and (max-width: 600px) {
-.success{padding-top:100px;}}
+.success{padding-top:100px;}
+.headingsuccess{
+  font-size:30px;
+}}
 
 
 img {
@@ -2145,10 +2148,6 @@ width:20px;
 height:20px;
 }
 /* ------testimonial  close-------*/
-
-
-
-
 
 .arrowone{
   position: absolute;
