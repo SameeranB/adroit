@@ -1814,6 +1814,15 @@ margin-bottom:20px;
   height:100vh;
 }
 
+.hundred img{
+  width:50%;
+}
+@media only screen and (max-width: 600px) {
+.hundred img{
+  width:70%;
+  }
+}
+
 .footer{
   color: rgb(0, 0, 0);
   margin-top:6vh;
