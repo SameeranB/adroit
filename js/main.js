@@ -21,10 +21,15 @@ $(document).ready(function () {
 
 /*Stopping it figure here out */
   slide.each(function (i) {
-      if (i < 5) {
+    if (i==0){
+      setTimeout(function(){
+        slide.eq(i).fadeOut();
+      }, 5500*(i+1));
+    }
+      else if (i < 5) {
           setTimeout(function () {
               slide.eq(i).fadeOut();
-          }, 5500 * (i + 1));
+          }, 3500 * (i + 1));
       }
   });
 
@@ -81,23 +86,23 @@ $(document).ready(function () {
 
   setTimeout(function () {
      animateSlideB();
-  }, 3000);
+  }, 3500);
 
   setTimeout(function () {
      animateSlideC();
-  }, 6000);
+  }, 7000);
 
   setTimeout(function () {
     animateSlideD();
- }, 9000);
+ }, 10500);
 
  setTimeout(function () {
   animateSlideE();
-}, 12000);
+}, 14000);
 
  setTimeout(function () {
   animateSlideF();
-}, 15000);
+}, 17500);
 
  replay.on('click', function () {
    location.reload(true);
