@@ -513,12 +513,9 @@ bottom:0;
   margin: 2vw;
   max-height:100vh;
   max-width:94.5vw;}
-@media screen and (max-width: 600px) {
- .success{ 
-  max-height:100vh;
 
- }
-}
+  @media only screen and (max-width: 600px) {
+.success{padding-top:200px;}}
 
 
 img {
