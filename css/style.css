@@ -119,6 +119,14 @@ wrapper {
   font-family:mfont;
   font-size:3vw;
 }
+
+@media only screen and (max-width: 600px) {
+.icon_box_item h3
+{
+  font-size:7vw;
+
+}
+}
 .icon_box_item p
 {
   margin-bottom: 0px;
@@ -503,18 +511,14 @@ bottom:0;
   border: 4px solid rgb(255, 255, 255);
   margin: 2vw;
   max-height:50vh;
-max-width:94.5vw;}
+  max-width:94.5vw;}
+@media screen and (max-width: 600px) {
+ .success{ 
+  max-height:100vh;
+
+ }
 }
 
-  
-.successup {
-  height: 103vh;
-  position: relative;
-  background:black;
-  padding-top: 12vh;
-  background-position: center;
-      background-size: cover;
-}
 
 img {
   display: block;
