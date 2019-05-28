@@ -515,7 +515,7 @@ bottom:0;
   max-width:94.5vw;}
 
   @media only screen and (max-width: 600px) {
-.success{padding-top:200px;}}
+.success{padding-top:100px;}}
 
 
 img {
@@ -542,7 +542,6 @@ img {
   position: relative;
   margin-bottom: 7px;
   margin-top: 10px;
-
   font-family:mfont;
   text-transform: uppercase;
   z-index: 999;
@@ -706,9 +705,13 @@ text-align: center;
 .success4_slides h4 {
 color: #ffffff;
 font-family:ffont;
-font-size: 22px;
-}
+font-size: 22px;}
 
+@media only screen and (max-width: 600px) {
+.success4_slides img {
+  width:140%;
+}
+}
 .success .carousel {
 padding-bottom:50px;
 }
