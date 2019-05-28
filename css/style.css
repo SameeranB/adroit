@@ -265,6 +265,12 @@ wrapper {
   right: 3vw;
   top:5vw;
 }
+
+@media screen and (max-width: 600px) {
+.bar{
+  top:20px;
+}
+}
 .bar:before {
   top: -10px;
 }
