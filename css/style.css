@@ -253,12 +253,6 @@ wrapper {
   z-index: 1000;
   cursor: pointer;
 }
-@media screen and (max-width: 600px) {
-.menu-collapsed{
-  top: 200px;
-  right:100px;
-}
-}
 
 .menu-collapsed ul {
   transition: all 0s;
