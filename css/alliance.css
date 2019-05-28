@@ -459,7 +459,7 @@ h2{
   color: #fff;
 }
 [data-type="foodcamp"] .content__left {
-  background: url(../img/ca.png);
+  background: url(../img/alliance/problem.png);
   background-repeat: no-repeat;
 margin-left:20px;
 margin-top:5%;
@@ -469,7 +469,7 @@ margin-top:5%;
   background-image: none;
 }
 [data-type="queue"] .content__left {
-  background-image: url(../img/ali.png);
+  background-image: url(../img/alliance/solution.png);
   margin-left:20px;
   margin-top:5%;
   height:421px;
