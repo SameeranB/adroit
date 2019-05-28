@@ -224,8 +224,8 @@ wrapper {
 /*navi*/
 .logo {
   z-index:1000;
-  position: fixed;
-  left:0;
+  position:fixed;
+  left:0px;
 	top: 20px;
 }
 .b-a, .bar, .bar:before, .bar:after {
@@ -510,7 +510,9 @@ img {
   img{
     width:40%;
     top: 8px;
-
+  }
+  .logo{
+    left:-10px;
   }
 }
 
