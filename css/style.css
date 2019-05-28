@@ -228,6 +228,11 @@ wrapper {
   left:-2vw;
 	top: 20px;
 }
+@media screen and (max-width: 600px) {
+.logo{
+  left:-5vw;
+}
+}
 .b-a, .bar, .bar:before, .bar:after {
   transition: all .25s;
   content: "";
