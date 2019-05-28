@@ -1915,6 +1915,12 @@ margin-bottom:20px;
   z-index: 999;
 }
 
+@media only screen and (max-width: 600px) {
+.heading{
+  margin-bottom: 35px;
+
+}
+}
 .heading:after {
   content: ' ';
   position: absolute;
