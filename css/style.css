@@ -225,7 +225,7 @@ wrapper {
 .logo {
   z-index:1000;
   position:fixed;
-  left:0px;
+  left:-2vw;
 	top: 20px;
 }
 .b-a, .bar, .bar:before, .bar:after {
@@ -511,9 +511,7 @@ img {
     width:40%;
     top: 8px;
   }
-  .logo{
-    left:-30px;
-  }
+  
 }
 
 
