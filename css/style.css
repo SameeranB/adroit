@@ -257,6 +257,7 @@ wrapper {
 .menu-collapsed ul {
   transition: all 0s;
   position: fixed;
+  height:100vh;
   right: -9000px;
 }
 
