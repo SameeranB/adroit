@@ -1658,7 +1658,6 @@ margin-bottom:20px;
   }
 
   
-
   .intro .slide .slide-content {
     text-align: center;
     color: #fff;
@@ -2145,7 +2144,9 @@ padding-bottom:50px;
 width:20px;
 height:20px;
 }
-
+.testimonial {
+  height: 80vh;}
+}
 /* ------testimonial  close-------*/
 
 
