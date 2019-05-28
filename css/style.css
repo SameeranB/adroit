@@ -255,8 +255,8 @@ wrapper {
 }
 @media screen and (max-width: 600px) {
 .menu-collapsed{
-  top: 20px;
-  right:10px;
+  top: 200px;
+  right:100px;
 }
 }
 
