@@ -157,7 +157,11 @@ wrapper {
   bottom: 12px;
   left: 0;
 }
- 
+@media only screen and (max-width: 600px) {
+
+.wave{display:none;}
+}
+
 .wave {
   background: url(../img/wave.png) repeat-x;
   position: absolute;
