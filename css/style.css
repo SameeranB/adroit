@@ -1917,7 +1917,9 @@ margin-bottom:20px;
 
 @media only screen and (max-width: 600px) {
 .heading{
-  margin-bottom: 35px;
+  margin-bottom: 20px;
+  font-size: 30px;
+
 
 }
 }
