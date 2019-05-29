@@ -2165,8 +2165,8 @@ padding-bottom:50px;
 }
 @media only screen and (max-width: 600px) {
   .testimonial .carousel-control-next-icon, .testimonial .carousel-control-prev-icon {
-width:10px;
-height:10px;
+width:20px;
+height:20px;
 }
 /* ------testimonial  close-------*/
 
