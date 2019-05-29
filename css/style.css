@@ -724,7 +724,7 @@ font-size: 22px;}
 
 @media only screen and (max-width: 600px) {
 .success4_slides img {
-  width:180%;
+  width:150%;
   padding-right: 50px;
 
 }
