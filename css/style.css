@@ -170,7 +170,9 @@ wrapper {
 }
 @media only screen and (max-width: 600px) {
 
-.wave{display:none;}
+.wave{
+  display:none;
+}
 }
 
 .wave {

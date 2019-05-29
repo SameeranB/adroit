@@ -124,11 +124,18 @@ margin-top:10px;
 }
 
 /*navi*/
+
 .logo {
   z-index:1000;
-  position: fixed;
-  left:20px;
+  position:fixed;
+  left:-2vw;
 	top: 20px;
+}
+@media screen and (max-width: 600px) {
+.logo{
+  left:-15vw;
+  position:absolute;
+}
 }
 .b-a, .bar, .bar:before, .bar:after {
   transition: all .25s;
