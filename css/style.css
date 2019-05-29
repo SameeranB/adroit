@@ -729,6 +729,8 @@ font-size: 22px;}
 .success4_slides{
 padding:0;
 width: 60%;
+padding-left:0px;
+padding-right: 50px;
 text-align: left;
 
 }
