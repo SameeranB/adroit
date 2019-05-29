@@ -172,13 +172,13 @@ wrapper {
 }
 
 .wave {
-  background: url(../img/aman1.png) repeat-x;
+  background: url(../img/q.png) repeat-x;
   position: absolute;
   top: -8vw;
   width: 6400px;
   height: 198px;
-  -webkit-animation: wave 1.6s cubic-bezier(0.36, 0.45, 0.63, 0.53) infinite;
-          animation: wave 1.6 cubic-bezier(0.36, 0.45, 0.63, 0.53) infinite;
+  -webkit-animation: wave 1s cubic-bezier(0.36, 0.45, 0.63, 0.53) infinite;
+          animation: wave 1s cubic-bezier(0.36, 0.45, 0.63, 0.53) infinite;
   -webkit-transform: translate3d(0, 0, 0);
           transform: translate3d(0, 0, 0);
 }
@@ -240,6 +240,8 @@ wrapper {
 @media screen and (max-width: 600px) {
 .logo{
   left:-15vw;
+  position:absolute;
+
 }
 }
 .b-a, .bar, .bar:before, .bar:after {
