@@ -57,7 +57,6 @@ body {
 
   .tag{
     color:white;
-    padding-top:30px;
     text-align:center;
   }
 
@@ -421,12 +420,20 @@ margin-top:10px;
 
 h2{
   text-align:center;
-  padding-top:100px;
-  font-size:6vw;
+  padding-top:40px;
+  font-size:4vw;
   font-family:mfont;
   color:black;
   }
-
+  @media only screen and (max-width: 600px) {
+  .h2{
+    padding-top:100px;
+    font-size:6vw;
+  }
+  .tag{
+    padding-top:10px;
+  }
+  }
 .content__left span {
   font-size: 1vw;
   font-weight: 300;
