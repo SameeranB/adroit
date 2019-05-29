@@ -31,10 +31,15 @@
   background-color: #ffb000;
   }
 
+  @media screen and (max-width: 600px) {
+  .menu-expanded{
+    line-height:14vh;
+  }
+  }
 .bar {
   position: fixed;
   right: 3vw;
-  top: 3vw;
+  top: 5vw;
   }
 
   @media screen and (max-width: 600px) {
@@ -57,7 +62,9 @@
 </style>
 
 </head>
-  <body><a class="logo">
+  <body>
+    <wrapper>
+      <a class="logo">
     <img src="../img/abbiocco/logo.png"></a>
         
     <div class="menu-collapsed">
@@ -72,7 +79,7 @@
           </ul>
         </nav>
       </div>
-          
+          </wrapper>
   <!--Information-->
 <div class="mob">
 <h2 style="color:#ffb000;"><b>Abbiocco</b></h2>

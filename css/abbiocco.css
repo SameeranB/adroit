@@ -168,7 +168,7 @@ margin-top:10px;
 .bar {
   position: fixed;
   right: 3vw;
-  top: 5vw;
+  top: 10vw;
 }
 .bar:before {
   top: -10px;
@@ -182,11 +182,6 @@ margin-top:10px;
   top: -0px;
 }
 
-@media screen and (max-width: 600px) {
-  .bar{
-    top:50px;
-  }
-  }
 .menu-expanded {
   transition: all .25s;
   text-align: center;
@@ -203,7 +198,7 @@ margin-top:10px;
 
 @media screen and (max-width: 600px) {
   .menu-expanded{
-    line-height:8vh;
+    line-height:14vh;
   }
   }
 .menu-expanded ul {
