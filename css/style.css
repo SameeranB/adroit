@@ -119,7 +119,7 @@ wrapper {
   margin-bottom: 21px;
   padding-top:12vw;
   font-family:mfont;
-  font-size:3vw;
+  font-size:2.7vw;
 }
 
 @media only screen and (max-width: 600px) {
@@ -1195,9 +1195,7 @@ text-align:left;
      -moz-user-select: none;
       -ms-user-select: none;
           user-select: none;
-  /* 1 */
   counter-reset: steps;
-  /* 2 */
   overflow: hidden;
   list-style: none;
   padding: 0;
@@ -1207,11 +1205,7 @@ text-align:left;
 .ar{
   padding:20px;
 }
-/**
- * Steps
- * 1. Incrementing counter
- */
-/*li*/
+
 .steps__item {
   counter-increment: steps;
   background: rgb(0, 0, 0);
@@ -1472,7 +1466,7 @@ text-align: justify;
 float: left;
 width: 50%;
 right:0;
-height:550px;
+height:100vh;
 left:0;
 top:0;
 bottom:0;
@@ -2173,12 +2167,16 @@ height:20px;
 
 .arrowone{
   position: absolute;
+  z-index: 100;
+
   top: 85%;
   left: 50%;
   transform: translate(-50%,-50%);
 }
 .arrowone span{
   display: block;
+  z-index: 100;
+
   width: 30px;
   height: 30px;
   border-bottom: 5px solid rgb(255, 255, 255);
@@ -2186,12 +2184,6 @@ height:20px;
   transform: rotate(45deg);
   margin: -10px;
   animation: animate 2s infinite;
-}
-.arrowone span:nth-child(2){
-  animation-delay: -0.2s;
-}
-.arrowone span:nth-child(3){
-  animation-delay: -0.4s;
 }
 @keyframes animate {
   0%{

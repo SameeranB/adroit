@@ -45,7 +45,7 @@ html, body {
 }
 
 body {
-  background: rgb(255, 255, 255);
+  background-image:url(../img/office2.png);
   overflow-x: hidden;
 }
 /*Wave*/
@@ -220,12 +220,12 @@ h1{
   }
 
 h2{
-    text-align:left;
-    padding-top:40px;
+    text-align:center;
+    padding-top:10px;
     padding-left:40px;
     font-size:4vw;
     font-family:mfont;
-    color:black;
+    color:rgb(255, 255, 255);
     }
   
     
@@ -287,10 +287,11 @@ h3{
 }
 
 .info{
-  color:rgb(0, 0, 0);
-  text-align:left;
+  color:rgb(255, 255, 255);
+  text-align:center;
   margin-left:40px;
-  font-family:mfont;
+  margin-right:40px;
+    font-family:mfont;
 }
 
 
@@ -742,7 +743,7 @@ width: 120px;
   -webkit-appearance: none;
      -moz-appearance: none;
           appearance: none;
-  background-color: #ff0000;
+  background-color: #000000;
   border: 2px solid #e74c3c;
   border-radius: 0.2em;
   color: #e74c3c;
@@ -762,21 +763,21 @@ width: 120px;
   font-weight: 700;
 }
 .btnn:hover, .btnn:focus {
-  color: rgb(0, 0, 0);
+  color: #4ee711;
   outline: 0;
 }
 
 .fourth {
   border-color: #ff0000;
-  color: rgb(255, 255, 255);
-  background-image: linear-gradient(45deg, #ffffff 50%, transparent 50%);
+  color: rgb(253, 253, 253);
+  background-image: linear-gradient(45deg, #ff0000 50%, transparent 50%);
   background-position: 100%;
   background-size: 400%;
   transition: background-color 300ms ease-in-out;
 }
 .fourth:hover {
   background-position: 0;
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
 
 }
 
@@ -822,7 +823,7 @@ width: 120px;
 
 .inner-div
 {
-text-align:left;
+text-align:center;
 margin-bottom:20px;
 margin-top:30px;
 margin-left:20px;
@@ -853,9 +854,6 @@ margin-left:20px;
   align:center;
 }
 
-
-
-
 /*solutions steps*/
 .steps {
   -webkit-user-select: none;
@@ -874,11 +872,8 @@ margin-left:20px;
 .ar{
   padding:20px;
 }
-/**
- * Steps
- * 1. Incrementing counter
- */
-/*li*/
+
+
 .steps__item {
   counter-increment: steps;
   background: #E8E8E8;
@@ -887,16 +882,8 @@ margin-left:20px;
   float: left;
   position: relative;
   white-space: nowrap;
-  /**
-   * Defining step width depending on the number of steps
-   */
-  /**
-   * Arrow shapes
-   */
-  /**
-   * Small width stuff kids
-   */
 }
+
 .steps__item:first-child:nth-last-child(1), .steps__item:first-child:nth-last-child(1) ~ .steps__item {
   width: 100%;
 }
@@ -957,22 +944,13 @@ margin-left:20px;
   }
 }
 
-/**
- * Left border on first item
- */
 .steps__item--first {
   border-left: 1px solid #000;
 }
 
-/**
- * Right border on last item
- */
 .steps__item--last {
   border-right: 1px solid #000;
-  /**
-   * No left arrow on first item
-   * No right arrow on last item
-   */
+  
 }
 @media (max-width: 767px) {
   .steps__item--last {
@@ -983,10 +961,7 @@ margin-left:20px;
   content: none;
 }
 
-/**
- * Step link
- */
-/*a|span*/
+
 .steps__link {
   transition: .25s ease-out;
   color: rgb(6, 135, 158);
@@ -994,12 +969,6 @@ margin-left:20px;
   text-align: center;
   text-decoration: none;
   padding: 0.5em 0;
-  /**
-   * Counter
-   */
-  /**
-   * Hover stuff
-   */
 }
 .steps__link:before {
   width: 1.5em;
@@ -1135,18 +1104,16 @@ transform: translateX(-50%) translateY(-50%);
 padding:25px;
 text-align: justify;
 }
-/* Create two equal columns that floats next to each other */
 .columnn {
 float: left;
 width: 50%;
 right:0;
-height:550px;
+height:100vh;
 left:0;
 top:0;
 bottom:0;
 }
 
-/* Clear floats after the columns */
 .rown:after {
 content: "";
 display: table;
