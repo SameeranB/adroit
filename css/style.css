@@ -725,12 +725,13 @@ font-size: 22px;}
 @media only screen and (max-width: 600px) {
 .success4_slides img {
   width:140%;
+  padding-right: 50px;
+
 }
 .success4_slides{
 padding:0;
 width: 60%;
 padding-left:0px;
-padding-right: 50px;
 text-align: left;
 
 }
