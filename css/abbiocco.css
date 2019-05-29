@@ -200,6 +200,12 @@ margin-top:10px;
   font-family: ifont;
   background-color: rgba(0, 0, 0, 0.90);
 }
+
+@media screen and (max-width: 600px) {
+  .menu-expanded{
+    line-height:11vh;
+  }
+  }
 .menu-expanded ul {
   transition: all 0s;
   position: relative;
@@ -425,6 +431,7 @@ h2{
   font-family:mfont;
   color:black;
   }
+
   @media screen and (max-width: 600px) {
   .mob{
     padding-top:50px;
