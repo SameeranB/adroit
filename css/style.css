@@ -725,7 +725,9 @@ font-size: 22px;}
 @media only screen and (max-width: 600px) {
 .success4_slides img {
   width:140%;
-  left:0;
+}
+.success4_slides{
+padding:0;
 }
 }
 .success .carousel {
