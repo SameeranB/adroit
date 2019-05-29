@@ -240,10 +240,10 @@ h3{
 .menu-collapsed {
   transition: all .25s;
   position: fixed;
-  top: 4vw;
+  top: 3vw;
   right: 3vw;
   height: 25px;
-  width: 4vw;
+  width: 45px;
   z-index: 1000;
   cursor: pointer;
 }
@@ -257,13 +257,15 @@ h3{
 .bar {
   position: fixed;
   right: 3vw;
-  top:5vw;
+  top:3vw;
 }
 
 @media screen and (max-width: 600px) {
 .bar{
   top:50px;
 }
+.menu-collapsed {
+top:40px;}
 }
 .bar:before {
   top: -10px;
@@ -660,6 +662,7 @@ padding-bottom:50px;
   width: 35px;
   height: 35px;
 }
+
 @media only screen and (max-width: 600px) {
   
 .success .carousel-control-next-icon, .success .carousel-control-prev-icon {
