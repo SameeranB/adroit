@@ -203,7 +203,7 @@ margin-top:10px;
 
 @media screen and (max-width: 600px) {
   .menu-expanded{
-    line-height:11vh;
+    line-height:8vh;
   }
   }
 .menu-expanded ul {
