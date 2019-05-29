@@ -427,11 +427,12 @@ h2{
   }
   @media only screen and (max-width: 600px) {
   .h2{
-    padding-top:100px;
+    padding-top:200px;
     font-size:6vw;
   }
   .tag{
     padding-top:10px;
+    padding-bottom:10px;
   }
   }
 .content__left span {
