@@ -540,7 +540,6 @@ bottom:0;
   font-size:30px;
 }}
 
-
 img {
   display: block;
   margin-left: auto;
@@ -552,6 +551,7 @@ img {
   img{
     width:40%;
     top: 8px;
+    left:0;
   }
   
 }
