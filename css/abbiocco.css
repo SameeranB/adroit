@@ -505,9 +505,22 @@ margin-top:5%;
 .hundred{
   height:100vh;
   background-color: rgb(0, 0, 0);
-
 }
 
+.hundred img{
+  width:50%;
+}
+
+@media only screen and (max-width: 600px) {
+  
+  .hundred{
+    height:80vh;
+  }
+  .hundred img{
+    width:100%;
+    }
+  }
+  
 .footer{
   color: rgb(0, 0, 0);
   margin-top:6vh;
