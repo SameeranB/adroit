@@ -57,6 +57,7 @@ body {
 
   .tag{
     color:white;
+    padding-top:30px;
     text-align:center;
   }
 
@@ -420,8 +421,8 @@ margin-top:10px;
 
 h2{
   text-align:center;
-  padding-top:40px;
-  font-size:4vw;
+  padding-top:60px;
+  font-size:6vw;
   font-family:mfont;
   color:black;
   }
