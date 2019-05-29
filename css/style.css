@@ -1686,7 +1686,6 @@ margin-bottom:20px;
   .intro .slide .slide-content {
     text-align: center;
     color: #fff;
-    font-family: "Raleway", sans-serif;
   }
   .intro .slide .slide-content h1 {
     font-size: 70px;
@@ -1821,7 +1820,7 @@ margin-bottom:20px;
     }
   
     h2 {
-      font-size: 33px !important;
+      font-size: 30px !important;
     }
   
     p {
