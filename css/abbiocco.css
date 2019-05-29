@@ -425,16 +425,12 @@ h2{
   font-family:mfont;
   color:black;
   }
-  @media only screen and (max-width: 600px) {
-  .h2{
-    padding-top:80px;
-    font-size:9vw;
-  }
-  .tag{
+  @media screen and (max-width: 600px) {
+  .mob{
     padding-top:50px;
-    padding-bottom:10px;
   }
   }
+
 .content__left span {
   font-size: 1vw;
   font-weight: 300;
