@@ -768,7 +768,7 @@ ul {
 .site-heading h2 {
 display: block;
 font-weight: 700;
-margin-bottom: 10px;
+padding-bottom: 6px;
 text-transform: uppercase;
 }
 p{
