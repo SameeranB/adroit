@@ -62,80 +62,81 @@ wrapper {
   overflow-x: hidden!important;
 }
 
-/*About Us Section*/
+/*content*/
 
-.icon_boxes
-{
-  width: 100%;
-  z-index:1000;
-	padding-top: 13px;
-	padding-bottom: 129px;
-}
-.icon_box_title
-{
-	padding-right: 20px;
-	
-}
-.icon_box_title h1
-{
-	line-height: 1.25;
-}
-.icon_box_button
-{
-	margin-top: 40px;
-}
-.icon_box_button:hover a
-{
-	color: #FFFFFF;
-}
-.icon_box_col
-{
-	padding-top: 21px;
-}
-.icon_box_item
-{
-  margin-top: 17px;
-	margin-bottom: 35px;
-}
+h1{
+  text-align:center;
+  font-family: ffont;
+  color:white;
+  padding-top:290px;
+  }
 
-.icon_box_item:last-child
-{
-	margin-bottom: 0px;
-}
-.icon_box_item h2
-{
-  text-align:left;
-  margin-bottom: 21px;
-  font-family:mfont;
-  font-size:3vw;
-}
-
-.icon_box_item h3
-{
-  text-align:left;
-  margin-bottom: 21px;
-  padding-top:12vw;
-  font-family:mfont;
-  font-size:2.7vw;
-}
-
-@media only screen and (max-width: 600px) {
-.icon_box_item h3
-{
-  font-size:7vw;
-  font-family:ifont;
-}
-}
-
-.icon_box_item p
-{
-  margin-bottom: 0px;
-  font-family:rfont;
-  font-size:1.2vw;
-  color:black;
+h2{
+    text-align:center;
+    padding-top:40px;
+    font-size:4vw;
+    font-family:mfont;
+    color:black;
+    }
+  
+    
+h3{
   text-align:justify;
-}
+  padding-top:10px;
+  font-size:1.5vw;
+  color:black;
+  font-family:lfont;
+  }
 
+    
+  h5{
+    text-align:center;
+    font-family: rfont;
+    padding-top:22px;
+    font-size:1.8vw;
+    color:rgb(255, 255, 255);
+    }
+    
+  .viewab h5{
+    text-align:center;
+    font-family: rfont;
+    padding-top:5px;
+    font-size:1vw;
+    color:rgb(255, 255, 255);
+  }
+  @media screen and (max-width: 600px) {
+  
+    h5{
+      text-align:center;
+      font-family: rfont;
+      padding-top:22px;
+      font-size:5vw;
+      color:rgb(255, 255, 255);
+      }
+      
+    .viewab h5{
+      text-align:center;
+      font-family: rfont;
+      padding-top:5px;
+      font-size:4vw;
+      color:rgb(255, 255, 255);
+    }
+  
+  }
+  
+  h6{
+    text-align:center;
+    padding-top:10px;
+    color:rgb(255, 255, 255);
+    }
+  
+  h7{
+     font-family: mfont;
+     font-size:2.4vw;
+      text-align:center;
+      padding-top:30px;
+      color:rgb(255, 255, 255);
+    }
 /*first section */
 
 .pageone{
@@ -250,7 +251,7 @@ wrapper {
 .menu-collapsed ul {
   transition: all 0s;
   position: fixed;
-  right: -9000px;
+  right: -99000px;
 }
 
 .bar {
@@ -294,6 +295,7 @@ wrapper {
   line-height:11vh;
 }
 }
+
 .menu-expanded ul {
   transition: all 0s;
   position: relative;
@@ -324,93 +326,90 @@ wrapper {
   transform: rotate(-225deg);
 }
 
-
-/*content*/
-
-h1{
+.success a:hover{
   text-align:center;
-  font-family: ffont;
-  color:white;
-  padding-top:290px;
+  font-family: rfont;
+  text-decoration: none;
+  padding-top:5px;
+  font-size:1vw;
+  color:rgb(255, 255, 255);
   }
-
-h2{
-    text-align:center;
-    padding-top:40px;
-    font-size:4vw;
-    font-family:mfont;
-    color:black;
-    }
-  
+     
     
-h3{
-  text-align:justify;
-  padding-top:10px;
-  font-size:1.5vw;
+/*About Us Section*/
+
+.icon_boxes
+{
+  width: 100%;
+  z-index:1000;
+	padding-top: 13px;
+	padding-bottom: 129px;
+}
+.icon_box_title
+{
+	padding-right: 20px;
+	
+}
+.icon_box_title h1
+{
+	line-height: 1.25;
+}
+.icon_box_button
+{
+	margin-top: 40px;
+}
+.icon_box_button:hover a
+{
+	color: #FFFFFF;
+}
+.icon_box_col
+{
+	padding-top: 21px;
+}
+.icon_box_item
+{
+  margin-top: 17px;
+	margin-bottom: 35px;
+}
+
+.icon_box_item:last-child
+{
+	margin-bottom: 0px;
+}
+.icon_box_item h2
+{
+  text-align:left;
+  margin-bottom: 21px;
+  font-family:mfont;
+  font-size:3vw;
+}
+
+.icon_box_item h3
+{
+  text-align:left;
+  margin-bottom: 21px;
+  padding-top:12vw;
+  font-family:mfont;
+  font-size:2.7vw;
+}
+
+@media only screen and (max-width: 600px) {
+.icon_box_item h3
+{
+  font-size:7vw;
+  font-family:ifont;
+}
+}
+
+.icon_box_item p
+{
+  margin-bottom: 0px;
+  font-family:rfont;
+  font-size:1.2vw;
   color:black;
-  font-family:lfont;
-  }
+  text-align:justify;
+}
 
-    
-  h5{
-    text-align:center;
-    font-family: rfont;
-    padding-top:22px;
-    font-size:1.8vw;
-    color:rgb(255, 255, 255);
-    }
-    
-  .viewab h5{
-    text-align:center;
-    font-family: rfont;
-    padding-top:5px;
-    font-size:1vw;
-    color:rgb(255, 255, 255);
-  }
-  @media screen and (max-width: 600px) {
-  
-    h5{
-      text-align:center;
-      font-family: rfont;
-      padding-top:22px;
-      font-size:5vw;
-      color:rgb(255, 255, 255);
-      }
-      
-    .viewab h5{
-      text-align:center;
-      font-family: rfont;
-      padding-top:5px;
-      font-size:4vw;
-      color:rgb(255, 255, 255);
-    }
-  
-  }
-  
-  .success a:hover{
-    text-align:center;
-    font-family: rfont;
-    text-decoration: none;
-    padding-top:5px;
-    font-size:1vw;
-    color:rgb(255, 255, 255);
-  }
-  
-  h6{
-    text-align:center;
-    padding-top:10px;
-    color:rgb(255, 255, 255);
-    }
-  
-  h7{
-     font-family: mfont;
-     font-size:2.4vw;
-      text-align:center;
-      padding-top:30px;
-      color:rgb(255, 255, 255);
-    }
-    
-    
 .tag{
   color:white;
   text-align:center;
