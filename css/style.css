@@ -456,7 +456,10 @@ bottom:0;
   max-width:94.5vw;}
 
   @media only screen and (max-width: 600px) {
-.success{padding-top:30px;margin-top:20px;}
+.success{padding-top:30px;
+  margin-top:20px;
+margin-bottom:20px;}
+
 .headingsuccess{
   font-size:30px;
 }}
