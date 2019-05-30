@@ -264,7 +264,11 @@ ul {
 }
 .carousel {
   position: relative;
-  height: 100%;
+  height: 100%;  
+  background-color: rgba(248,248,248,0.1);
+  margin-left:10px;
+  margin-right:10px;
+
 
   -webkit-perspective: 50vw;
           perspective: 50vw;
@@ -325,8 +329,8 @@ ul {
   position: absolute;
   top: 20px;
   bottom: 20px;
-  left: 20px;
-  right: 20px;
+  left: 10px;
+  right: 10px;
   margin: auto;
   -webkit-transform-style: preserve-3d;
           transform-style: preserve-3d;
@@ -538,7 +542,6 @@ h2{
 .content__right .content__main p:last-child {
   letter-spacing: 0.15em;
   top: 0;
-
   font-size: 0.85em;
 }
 .content__right .content__index {
@@ -554,8 +557,10 @@ h2{
 [data-type="foodcamp"] .content__left {
   background: url(../img/abbiocco/problem.png);
   background-repeat: no-repeat;
-margin-left:20px;
+margin-left:3%;
 margin-top:5%;
+margin-bottom:5px;
+
 }
 @media only screen and (max-width: 600px) {
 
@@ -572,8 +577,10 @@ margin-top:5%;
 }
 [data-type="queue"] .content__left {
   background-image: url(../img/abbiocco/solution.png);
-  margin-left:20px;
+  margin-left:10px;
   margin-top:5%;
+  margin-bottom:5px;
+  
   height:421px;
   width:628px;
 
