@@ -66,11 +66,7 @@ body {
     margin-right: auto;
     width: 55%;
   }
-  @media screen and (max-width: 600px) {
-  .img{
-    width: 15%;
-  }
-  }  
+  
 .btnn {
   box-sizing: border-box;
   -webkit-appearance: none;
@@ -138,6 +134,8 @@ margin-top:10px;
 .logo{
   left:-15vw;
   position:absolute;
+  height:50px;
+  width:50px;
 }
 }
 .b-a, .bar, .bar:before, .bar:after {
