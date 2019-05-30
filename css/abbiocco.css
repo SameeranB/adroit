@@ -125,6 +125,81 @@ margin-top:10px;
 
 /*navi*/
 
+/*content*/
+
+h1{
+  text-align:center;
+  font-family: ffont;
+  color:white;
+  padding-top:290px;
+  }
+
+h2{
+    text-align:center;
+    padding-top:40px;
+    font-size:4vw;
+    font-family:mfont;
+    color:black;
+    }
+  
+    
+h3{
+  text-align:justify;
+  padding-top:10px;
+  font-size:1.5vw;
+  color:black;
+  font-family:lfont;
+  }
+
+    
+  h5{
+    text-align:center;
+    font-family: rfont;
+    padding-top:22px;
+    font-size:1.8vw;
+    color:rgb(255, 255, 255);
+    }
+    
+  .viewab h5{
+    text-align:center;
+    font-family: rfont;
+    padding-top:5px;
+    font-size:1vw;
+    color:rgb(255, 255, 255);
+  }
+  @media screen and (max-width: 600px) {
+  
+    h5{
+      text-align:center;
+      font-family: rfont;
+      padding-top:22px;
+      font-size:5vw;
+      color:rgb(255, 255, 255);
+      }
+      
+    .viewab h5{
+      text-align:center;
+      font-family: rfont;
+      padding-top:5px;
+      font-size:4vw;
+      color:rgb(255, 255, 255);
+    }
+  
+  }
+  
+  h6{
+    text-align:center;
+    padding-top:10px;
+    color:rgb(255, 255, 255);
+    }
+  
+  h7{
+     font-family: mfont;
+     font-size:2.4vw;
+      text-align:center;
+      padding-top:30px;
+      color:rgb(255, 255, 255);
+    }
 /*navbar*/
 .logo {
   z-index:1000;
