@@ -64,8 +64,15 @@ body {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 105%;
+    width: 55%;
   }
+  @media screen and (max-width: 600px) {
+.img{ display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width:20%;
+}}
+  
   
 .btnn {
   box-sizing: border-box;
@@ -127,7 +134,7 @@ margin-top:10px;
 .logo {
   z-index:1000;
   position:fixed;
-  left:2vw;
+  left:-2vw;
 	top: 20px;
 }
 @media screen and (max-width: 600px) {
