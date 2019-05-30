@@ -484,7 +484,7 @@ h2{
   .content__right .content__main {
     font-family:gfont;
     top: 0;
-    text-align: left;
+    text-align: justify;
     overflow-y:auto;
     color: black;
     font-size: 2.5vw;
@@ -494,7 +494,12 @@ h2{
     font-weight: 300;
     margin: 0;
   }
+  .content__right h1 .content__main h1 {
+    font-size: 3.5vw;
+
+  }
 }
+
 .content__right .content__main p:last-child {
   letter-spacing: 0.15em;
   top: 0;
@@ -537,6 +542,15 @@ margin-top:5%;
 @media only screen and (max-width: 600px) {
   .content__right {
   top:10vh;
+  }
+
+  [data-type="queue"] .content__left {
+    background-image: url(../img/gnw/solution.png);
+    margin-left:15px;
+    margin-top:10vh;
+    background-repeat: no-repeat;
+    margin-bottom:15px;
+   
   }}
   
 @media only screen and (max-width: 600px) {
@@ -545,6 +559,7 @@ margin-top:5%;
     background: url(../img/abbiocco/small.png);
   margin-left:15px;
   margin-bottom:15px;
+  background-repeat: no-repeat;
   margin-top:10vh;
   }
 }
