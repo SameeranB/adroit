@@ -216,6 +216,12 @@ margin-top:10px;
   transform: rotate(-225deg);
 }
 
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
 /*MAIN COURSEL*/
 
 .js-transitions-disabled * {
