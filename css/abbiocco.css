@@ -265,6 +265,7 @@ ul {
 .carousel {
   position: relative;
   height: 100%;
+
   -webkit-perspective: 50vw;
           perspective: 50vw;
   -webkit-perspective-origin: 50% 50%;
@@ -274,13 +275,14 @@ ul {
 .carousel__control {
   position: absolute;
   width: 50px;
-  background: #ffb000;
   right: 0;
   top: 0;
   bottom: 0;
   height: 100px;
   margin: auto;
   z-index: 1;
+  background: #ffb000;
+
 }
 @media only screen and (max-width: 600px) {
  .carousel__control{
@@ -330,6 +332,20 @@ ul {
           transform-style: preserve-3d;
   -webkit-transform: translateZ(calc(-50vh + 20px));
           transform: translateZ(calc(-50vh + 20px));
+}
+@media only screen and (max-width: 600px) {
+.carousel__stage {
+  position: absolute;
+  top: 20px;
+  bottom: 20px;
+  left: 10px;
+  right: 10px;
+  margin: auto;
+  -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
+  -webkit-transform: translateZ(calc(-50vh + 20px));
+          transform: translateZ(calc(-50vh + 20px));
+  }
 }
 .spinner {
   position: absolute;
