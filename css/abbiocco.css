@@ -66,7 +66,11 @@ body {
     margin-right: auto;
     width: 55%;
   }
-  
+  @media screen and (max-width: 600px) {
+  .img{
+    width: 15%;
+  }
+  }  
 .btnn {
   box-sizing: border-box;
   -webkit-appearance: none;
