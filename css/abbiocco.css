@@ -433,6 +433,16 @@ ul {
   width: 50%;
   height: 100%;
 }
+@media only screen and (max-width: 600px) {
+.content__left,
+.content__right {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 50%;
+  height: 60%;
+}
+
 .content__right {
   overflow-y:auto;
   top: 0;
