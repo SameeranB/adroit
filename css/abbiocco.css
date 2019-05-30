@@ -509,7 +509,6 @@ h2{
 .content__right .content__main {
   font-family:mfont;
   top: 0;
-
   text-align: left;
   overflow-y:auto;
   color: #fff;
@@ -520,6 +519,22 @@ h2{
   font-weight: 300;
   margin: 0;
   opacity: 0.8;
+}
+@media only screen and (max-width: 600px) {
+
+  .content__right .content__main {
+    font-family:mfont;
+    top: 0;
+    text-align: left;
+    overflow-y:auto;
+    color: #fff;
+    font-size: 3.3vw;
+    padding: 0 5vw;
+    top:0;
+    line-height: 1.65;
+    font-weight: 300;
+    margin: 0;
+    opacity: 0.8;}
 }
 .content__right .content__main p:last-child {
   letter-spacing: 0.15em;
