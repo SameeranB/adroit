@@ -207,10 +207,6 @@ top:40px;}
 .menu-expanded{
   line-height:11vh;
 }
-.menu-expanded a {
-  font-size: 2em;
-
-}
 }
 
 .menu-expanded ul {
@@ -223,10 +219,15 @@ top:40px;}
 .menu-expanded a {
   transition: all .15s;
   text-decoration: none;
-  font-size: 3em;
+  font-size: 4vw;
   padding: 5px;
   color: #fff;
   display: block;
+}
+@media screen and (max-width: 600px) {
+  .menu-expanded a {
+    font-size: 2vw;
+  }
 }
 .menu-expanded a:hover {
   transition: all .15s;
