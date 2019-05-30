@@ -451,19 +451,9 @@ ul {
   height: 100%;
   background-color: rgba(248,248,248,0.1);
 }
-.content__left h1 {
-  position: absolute;
-  top: 10%;
-  margin-top: -3vw;
-  text-align: center;
-  font-family: ffont;
-  font-size: 5vw;
-  height: 10vw;
-  opacity: 1;
-  color: #000000;
-  width: 100%;
-  letter-spacing: 0.15em;
-  line-height: 0.6;
+h1{
+  font-size:4vw;
+
 }
 
 h2{
