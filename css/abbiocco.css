@@ -344,8 +344,8 @@ ul {
     margin: auto;
     -webkit-transform-style: preserve-3d;
             transform-style: preserve-3d;
-    -webkit-transform: translateZ(calc(-10vh + 5px));
-            transform: translateZ(calc(-10vh + 5px));
+    -webkit-transform: translateZ(calc(-50vh + 20px));
+            transform: translateZ(calc(-50vh + 20px));
   }
 }
 
