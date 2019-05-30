@@ -123,12 +123,18 @@ margin-top:10px;
     align:center;
 }
 
-/*navi*/
+/*navbar*/
 .logo {
   z-index:1000;
-  position: fixed;
-  left:20px;
+  position:fixed;
+  left:-2vw;
 	top: 20px;
+}
+@media screen and (max-width: 600px) {
+.logo{
+  left:-15vw;
+  position:absolute;
+}
 }
 .b-a, .bar, .bar:before, .bar:after {
   transition: all .25s;
@@ -146,20 +152,29 @@ margin-top:10px;
   top: 2vw;
   right: 3vw;
   height: 25px;
-  width: 4vw;
+  width: 45px;
   z-index: 1000;
   cursor: pointer;
 }
+
 .menu-collapsed ul {
   transition: all 0s;
   position: fixed;
-  right: -9000px;
+  right: -99000px;
 }
 
 .bar {
   position: fixed;
   right: 3vw;
-  top: 3vw;
+  top:3vw;
+}
+
+@media screen and (max-width: 600px) {
+.bar{
+  top:50px;
+}
+.menu-collapsed {
+top:40px;}
 }
 .bar:before {
   top: -10px;
@@ -176,7 +191,7 @@ margin-top:10px;
 .menu-expanded {
   transition: all .25s;
   text-align: center;
-  line-height:14vh;
+  line-height:15vh;
   height: 100%;
   width: 100%;
   border-radius: 0px;
@@ -186,6 +201,12 @@ margin-top:10px;
   font-family: ifont;
   background-color: rgba(0, 0, 0, 0.90);
 }
+@media screen and (max-width: 600px) {
+.menu-expanded{
+  line-height:11vh;
+}
+}
+
 .menu-expanded ul {
   transition: all 0s;
   position: relative;
