@@ -207,6 +207,10 @@ top:40px;}
 .menu-expanded{
   line-height:11vh;
 }
+.menu-expanded a {
+  font-size: 2em;
+
+}
 }
 
 .menu-expanded ul {
