@@ -269,12 +269,7 @@ ul {
           perspective: 50vw;
   -webkit-perspective-origin: 50% 50%;
           perspective-origin: 50% 50%;
-}
-@media only screen and (max-width: 600px) {
-.carousel{
-  height: 100%;
 
-}
 }
 .carousel__control {
   position: absolute;
@@ -338,7 +333,7 @@ ul {
 }
 .spinner {
   position: absolute;
-  width: calc(50vw - (20px));
+  width:  calc(50vw - 20px);
   height: calc(100vh - 40px);
   top: 0;
   left: 0;
@@ -521,7 +516,7 @@ h2{
 }
 @media only screen and (max-width: 600px) {
   .content__right {
-  top:10px;
+  top:15px;
   }
   .content__right .content__main {
     font-family:mfont;
@@ -564,8 +559,8 @@ margin-top:5%;
   [data-type="foodcamp"] .content__left {
     background: url(../img/abbiocco/small.png);
     background-repeat: no-repeat;
-  margin-left:0px;
-  margin-top:5%;
+  margin-left:5px;
+  margin-top:15px;
   }
 }
 .spinner--right [data-type="foodcamp"] .content__left {
