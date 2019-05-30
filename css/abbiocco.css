@@ -125,6 +125,7 @@ margin-top:10px;
 
 /*navi*/
 
+/*navbar*/
 .logo {
   z-index:1000;
   position:fixed;
@@ -133,9 +134,7 @@ margin-top:10px;
 }
 @media screen and (max-width: 600px) {
 .logo{
-  left:-7vw;
-  width:150px;
-  height:auto;
+  left:-15vw;
   position:absolute;
 }
 }
@@ -146,29 +145,38 @@ margin-top:10px;
   right: 0;
   height: 5px;
   width: 45px;
-  background-color: rgba(255, 0, 0, 0.95);
+  background-color: #ffb000;
 }
 
 .menu-collapsed {
   transition: all .25s;
   position: fixed;
-  top: 4vw;
+  top: 3vw;
   right: 3vw;
   height: 25px;
-  width: 4vw;
+  width: 45px;
   z-index: 1000;
   cursor: pointer;
 }
+
 .menu-collapsed ul {
   transition: all 0s;
   position: fixed;
-  right: -9000px;
+  right: -99000px;
 }
 
 .bar {
   position: fixed;
   right: 3vw;
-  top: 10vw;
+  top:3vw;
+}
+
+@media screen and (max-width: 600px) {
+.bar{
+  top:50px;
+}
+.menu-collapsed {
+top:40px;}
 }
 .bar:before {
   top: -10px;
@@ -195,12 +203,12 @@ margin-top:10px;
   font-family: ifont;
   background-color: rgba(0, 0, 0, 0.90);
 }
-
 @media screen and (max-width: 600px) {
-  .menu-expanded{
-    line-height:14vh;
-  }
-  }
+.menu-expanded{
+  line-height:11vh;
+}
+}
+
 .menu-expanded ul {
   transition: all 0s;
   position: relative;
