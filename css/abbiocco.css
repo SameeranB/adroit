@@ -374,8 +374,8 @@ ul {
   transition: transform 1s, -webkit-transform 1s;
   -webkit-backface-visibility: hidden;
           backface-visibility: hidden;
-  -webkit-transform-origin: 50% 50%;
-          transform-origin: 50% 50%;
+  -webkit-transform-origin: 25% 25%;
+          transform-origin: 25% 25%;
   -webkit-transform: rotateX(0);
           transform: rotateX(0);
 }
