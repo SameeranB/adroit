@@ -528,7 +528,8 @@ margin-top:5%;
     background: url(../img/abbiocco/small.png);
   margin-left:5px;
   margin-bottom:5px;
-  margin-top:5px;
+  padding-left:5px;
+  margin-top:15px;
   }
 }
 /*footer*/
