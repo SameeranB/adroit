@@ -272,7 +272,7 @@ ul {
 }
 @media only screen and (max-width: 600px) {
 .carousel{
-  height: 60%;
+  height: 100%;
 
 }
 }
