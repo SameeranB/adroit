@@ -270,7 +270,12 @@ ul {
   -webkit-perspective-origin: 50% 50%;
           perspective-origin: 50% 50%;
 }
+@media only screen and (max-width: 600px) {
+.carousel{
+  height: 60%;
 
+}
+}
 .carousel__control {
   position: absolute;
   width: 50px;
@@ -384,7 +389,7 @@ ul {
   display: none;
   position: absolute;
   width: 100%;
-  height: 50%;
+  height: 60%;
   overflow: hidden;
   }
 }
