@@ -360,31 +360,6 @@ ul {
           transform: rotateX(0);
 }
 
-@media only screen and (max-width: 600px) {
-
-  .spinner {
-    position: absolute;
-    width: calc(50vw - (20px));
-    height: calc(80vh - 40px);
-    top: 0;
-    left: 0;
-    right: auto;
-    bottom: 0;
-    margin: auto;
-    -webkit-transform-style: preserve-3d;
-            transform-style: preserve-3d;
-    transition: -webkit-transform 1s;
-    transition: transform 1s;
-    transition: transform 1s, -webkit-transform 1s;
-    -webkit-backface-visibility: hidden;
-            backface-visibility: hidden;
-    -webkit-transform-origin: 50% 30%;
-            transform-origin: 50% 30%;
-    -webkit-transform: rotateX(0);
-            transform: rotateX(0);
-  }
-  
-}
 .js-spin-fwd .spinner {
   -webkit-transform: rotateX(-90deg);
           transform: rotateX(-90deg);
@@ -412,15 +387,7 @@ ul {
   height: 100%;
   overflow: hidden;
 }
-@media only screen and (max-width: 600px) {
-.spinner__face {
-  display: none;
-  position: absolute;
-  width: 100%;
-  height: 80%;
-  overflow: hidden;
-  }
-}
+
 .spinner__face.js-next {
   display: block;
   -webkit-transform: rotateX(90deg) translateZ(calc(50vh - 20px));
