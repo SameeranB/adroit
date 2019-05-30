@@ -560,7 +560,8 @@ margin-top:5%;
     background: url(../img/abbiocco/small.png);
     background-repeat: no-repeat;
   margin-left:5px;
-  margin-top:15px;
+  margin-bottom:5px;
+  margin-top:5px;
   }
 }
 .spinner--right [data-type="foodcamp"] .content__left {
