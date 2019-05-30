@@ -288,8 +288,8 @@ ul {
  .carousel__control{
   width: 40px;
   height: 100px;}
-
 }
+
 .carousel__control a {
   position: relative;
   display: block;
@@ -334,19 +334,21 @@ ul {
           transform: translateZ(calc(-50vh + 20px));
 }
 @media only screen and (max-width: 600px) {
-.carousel__stage {
-  position: absolute;
-  top: 20px;
-  bottom: 20px;
-  left: 5px;
-  right: 5px;
-  margin: auto;
-  -webkit-transform-style: preserve-3d;
-          transform-style: preserve-3d;
-  -webkit-transform: translateZ(calc(-50vh + 20px));
-          transform: translateZ(calc(-50vh + 20px));
+
+  .carousel__stage {
+    position: absolute;
+    top: 20px;
+    bottom: 20px;
+    left: 200px;
+    right: 20px;
+    margin: auto;
+    -webkit-transform-style: preserve-3d;
+            transform-style: preserve-3d;
+    -webkit-transform: translateZ(calc(-50vh + 20px));
+            transform: translateZ(calc(-50vh + 20px));
   }
 }
+
 .spinner {
   position: absolute;
   width:  calc(50vw - 20px);
