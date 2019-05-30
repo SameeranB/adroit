@@ -44,9 +44,11 @@ html, body {
 
 }
 
+p{
+  font-family: rfont;
+}
 body {
   background: rgb(255, 255, 255);
-  font-family: mfont;
 }
 .wrapper {
   
