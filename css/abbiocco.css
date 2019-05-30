@@ -226,7 +226,7 @@ top:40px;}
 }
 @media screen and (max-width: 600px) {
   .menu-expanded a {
-    font-size: 2vw;
+    font-size: 8vw;
   }
 }
 .menu-expanded a:hover {
