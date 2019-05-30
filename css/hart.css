@@ -282,9 +282,8 @@ ul {
   position: absolute;
   top: 20px;
   bottom: 20px;
-  left: 12px;
-  background-color: #ff0000;
-  right: 13px;
+  left: 20px;
+  right: 20px;
   margin: auto;
   -webkit-transform-style: preserve-3d;
           transform-style: preserve-3d;
@@ -336,7 +335,6 @@ ul {
   display: none;
   position: absolute;
   width: 100%;
-  background: ##cdcdcd;
   height: 100%;
   overflow: hidden;
 }
