@@ -358,6 +358,31 @@ ul {
           transform: rotateX(0);
 }
 
+@media only screen and (max-width: 600px) {
+
+  .spinner {
+    position: absolute;
+    width: calc(50vw - (20px));
+    height: calc(80vh - 40px);
+    top: 0;
+    left: 0;
+    right: auto;
+    bottom: 0;
+    margin: auto;
+    -webkit-transform-style: preserve-3d;
+            transform-style: preserve-3d;
+    transition: -webkit-transform 1s;
+    transition: transform 1s;
+    transition: transform 1s, -webkit-transform 1s;
+    -webkit-backface-visibility: hidden;
+            backface-visibility: hidden;
+    -webkit-transform-origin: 50% 30%;
+            transform-origin: 50% 30%;
+    -webkit-transform: rotateX(0);
+            transform: rotateX(0);
+  }
+  
+}
 .js-spin-fwd .spinner {
   -webkit-transform: rotateX(-90deg);
           transform: rotateX(-90deg);
@@ -511,12 +536,21 @@ h2{
   font-family: mfont;
   color: #fff;
 }
+
 [data-type="foodcamp"] .content__left {
   background: url(../img/abbiocco/problem.png);
   background-repeat: no-repeat;
 margin-left:20px;
 margin-top:5%;
+}
+@media only screen and (max-width: 600px) {
 
+  [data-type="foodcamp"] .content__left {
+    background: url(../img/abbiocco/logo.png);
+    background-repeat: no-repeat;
+  margin-left:20px;
+  margin-top:5%;
+  }
 }
 .spinner--right [data-type="foodcamp"] .content__left {
   background-image: none;
