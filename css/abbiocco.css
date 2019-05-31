@@ -528,21 +528,23 @@ margin-top:5%;
 @media only screen and (max-width: 600px) {
   .content__right {
   top:20vh;
-  }
+  }}
+
+  @media only screen and (max-width: 600px) {
 
   [data-type="queue"] .content__left {
     background-image: url(../img/abbiocco/smallsolution.png);
     margin-left:10px;
-    margin-top:10vh;
-    background-repeat: no-repeat;
     margin-bottom:15px;
-   
+    background-repeat: no-repeat;
+    margin-top:10vh;
+
   }}
   
 @media only screen and (max-width: 600px) {
 
   [data-type="foodcamp"] .content__left {
-    background: url(../img/abbiocco/smallprob.png);
+    background: url(../img/abbiocco/smallproblem.png);
   margin-left:10px;
   margin-bottom:15px;
   background-repeat: no-repeat;
