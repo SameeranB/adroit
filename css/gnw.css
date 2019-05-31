@@ -531,7 +531,7 @@ margin-top:5%;
   }
 
   [data-type="queue"] .content__left {
-    background-image: url(../img/gnw/solution.png);
+    background-image: url(../img/gnw/smallproblem.png);
     margin-left:15px;
     margin-top:10vh;
     background-repeat: no-repeat;
@@ -542,7 +542,7 @@ margin-top:5%;
 @media only screen and (max-width: 600px) {
 
   [data-type="foodcamp"] .content__left {
-    background: url(../img/gnw/try.png);
+    background: url(../img/gnw/smallsolution.png);
   margin-left:15px;
   margin-bottom:15px;
   background-repeat: no-repeat;
