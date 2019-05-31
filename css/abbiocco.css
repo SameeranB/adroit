@@ -437,10 +437,9 @@ h2{
   h2{
     padding-top:17vh;
     font-size:13vw;
-
-
   }
   }
+  
 @media only screen and (max-width: 600px) {
   .carousel__control{
    width: 40px;
