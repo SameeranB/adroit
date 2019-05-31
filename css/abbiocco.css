@@ -428,12 +428,19 @@ h1{
 
 h2{
   text-align:center;
-  padding-top:20vh;
+  padding-top:5vh;
   font-size:4vw;
   font-family:mfont;
   color:black;
   }
+  @media only screen and (max-width: 600px) {
+  h2{
+    padding-top:15vh;
+    font-size:15vw;
 
+
+  }
+  }
 @media only screen and (max-width: 600px) {
   .carousel__control{
    width: 40px;
