@@ -44,30 +44,19 @@ html, body {
 
 }
 
-p{
-  font-family: rfont;
-}
 body {
   background: rgb(255, 255, 255);
 }
-.wrapper {
   
-  overflow-x: hidden!important;
+p{
+  font-family: rfont;
 }
+  h6{
+    text-align:center;
+    padding-top:10px;
+    color:rgb(255, 255, 255);
+    }
 
-wrapper {
-  
-  overflow-x: hidden!important;
-}
-
-/*content*/
-
-h6{
-  text-align:center;
-  padding-top:10px;
-  color:rgb(255, 255, 255);
-  }
-  
   .tag{
     color:white;
     text-align:center;
@@ -80,7 +69,7 @@ h6{
     width: 55%;
   }
   
-  
+
 .btnn {
   box-sizing: border-box;
   -webkit-appearance: none;
@@ -256,7 +245,6 @@ ul {
   padding: 0;
   list-style: none;
 }
-
 /*MAIN COURSEL*/
 
 .js-transitions-disabled * {
@@ -269,26 +257,18 @@ ul {
           perspective: 50vw;
   -webkit-perspective-origin: 50% 50%;
           perspective-origin: 50% 50%;
-
 }
 .carousel__control {
   position: absolute;
   width: 50px;
-  right: 0;
-  top: 0;
-  bottom: 0;
   height: 100px;
+  background: #ffb000;
+  right: 0;
+  top:0;
+  bottom: 0;
   margin: auto;
   z-index: 1;
-  background: #ffb000;
-
 }
-@media only screen and (max-width: 600px) {
- .carousel__control{
-  width: 40px;
-  height: 100px;}
-}
-
 .carousel__control a {
   position: relative;
   display: block;
@@ -332,10 +312,9 @@ ul {
   -webkit-transform: translateZ(calc(-50vh + 20px));
           transform: translateZ(calc(-50vh + 20px));
 }
-
 .spinner {
   position: absolute;
-  width:  calc(50vw - 20px);
+  width: calc(50vw - (20px));
   height: calc(100vh - 40px);
   top: 0;
   left: 0;
@@ -354,7 +333,6 @@ ul {
   -webkit-transform: rotateX(0);
           transform: rotateX(0);
 }
-
 .js-spin-fwd .spinner {
   -webkit-transform: rotateX(-90deg);
           transform: rotateX(-90deg);
@@ -382,7 +360,6 @@ ul {
   height: 100%;
   overflow: hidden;
 }
-
 .spinner__face.js-next {
   display: block;
   -webkit-transform: rotateX(90deg) translateZ(calc(50vh - 20px));
@@ -423,7 +400,6 @@ ul {
   width: 50%;
   height: 100%;
 }
-
 .content__right {
   overflow-y:auto;
   top: 0;
@@ -442,6 +418,7 @@ ul {
   height: 100%;
   background-color: rgba(248,248,248,0.1);
 }
+
 h1{
   font-size:4vw;
 
@@ -455,6 +432,12 @@ h2{
   color:black;
   }
 
+@media only screen and (max-width: 600px) {
+  .carousel__control{
+   width: 40px;
+   height: 100px;}
+ }
+
 .content__left span {
   font-size: 1vw;
   font-weight: 300;
@@ -467,6 +450,7 @@ h2{
   display: flex;
   align-items: top;
   top: 10vh;
+
   justify-content: center;
 }
 .content__right .content__main {
@@ -485,22 +469,24 @@ h2{
 }
 @media only screen and (max-width: 600px) {
   .content__right {
-  top:15px;
+    top:15px;
+    }
+    .content__right .content__main {
+      font-family:mfont;
+      top: 0;
+      text-align: left;
+      overflow-y:auto;
+      color: #fff;
+      font-size: 3.3vw;
+      padding: 0 2vw;
+      top:0;
+      line-height: 1;
+      font-weight: 300;
+      margin: 0;
+      opacity: 0.8;}
   }
-  .content__right .content__main {
-    font-family:mfont;
-    top: 0;
-    text-align: left;
-    overflow-y:auto;
-    color: #fff;
-    font-size: 3.3vw;
-    padding: 0 2vw;
-    top:0;
-    line-height: 1;
-    font-weight: 300;
-    margin: 0;
-    opacity: 0.8;}
 }
+
 .content__right .content__main p:last-child {
   letter-spacing: 0.15em;
   top: 0;
@@ -515,34 +501,20 @@ h2{
   font-family: mfont;
   color: #fff;
 }
-
 [data-type="foodcamp"] .content__left {
   background: url(../img/abbiocco/problem.png);
   background-repeat: no-repeat;
-margin-left:3%;
+margin-left:20px;
 margin-top:5%;
-margin-bottom:5px;
 
-}
-@media only screen and (max-width: 600px) {
-
-  [data-type="foodcamp"] .content__left {
-    background: url(../img/gnw/try.png);
-    background-repeat: no-repeat;
-  margin-left:5px;
-  margin-bottom:5px;
-  margin-top:5px;
-  }
 }
 .spinner--right [data-type="foodcamp"] .content__left {
   background-image: none;
 }
 [data-type="queue"] .content__left {
   background-image: url(../img/abbiocco/solution.png);
-  margin-left:10px;
+  margin-left:20px;
   margin-top:5%;
-  margin-bottom:5px;
-  
   height:421px;
   width:628px;
 
@@ -552,23 +524,36 @@ margin-bottom:5px;
   background-image: none;
 }
 
+
+@media only screen and (max-width: 600px) {
+  .content__right {
+  top:20vh;
+  }
+
+  [data-type="queue"] .content__left {
+    background-image: url(../img/abbiocco/smallprob.png);
+    margin-left:15px;
+    margin-top:10vh;
+    background-repeat: no-repeat;
+    margin-bottom:15px;
+   
+  }}
+  
+@media only screen and (max-width: 600px) {
+
+  [data-type="foodcamp"] .content__left {
+    background: url(../img/abbiocco/smallsolution.png);
+  margin-left:15px;
+  margin-bottom:15px;
+  background-repeat: no-repeat;
+  margin-top:10vh;
+  }
+}
 /*footer*/
 .hundred{
   height:100vh;
-  background-color:black;
-}
+  background-color: rgb(0, 0, 0);
 
-.hundred img{
-  width:50%;
-}
-@media only screen and (max-width: 600px) {
-  
-.hundred{
-  height:100vh;
-}
-.hundred img{
-  width:100%;
-  }
 }
 
 .footer{
@@ -584,6 +569,7 @@ margin-bottom:5px;
     margin-top:15vh;
   }
 }
+
 
 .social-container {
   width: 100vw;
@@ -666,7 +652,21 @@ margin-bottom:5px;
   transition: all 265ms ease-in;
 }
 
-
+@media only screen and (max-width: 600px) {
+  
+  .hundred{
+    height:100vh;
+  }
+  .hundred img{
+    width:100%;
+    }
+  }
+  
+@media only screen and (max-width: 600px) {
+  .footer {
+    margin-top:15vh;
+  }
+}
 
 
 /*mob*/
