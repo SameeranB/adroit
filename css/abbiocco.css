@@ -135,8 +135,8 @@ margin-top:10px;
 }
 @media screen and (max-width: 600px) {
 .logo{
-  left:-10vw;
-  width:10vw;
+  left:5vw;
+  width:20vw;
   height:auto;
   position:absolute;
 }
