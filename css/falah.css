@@ -822,12 +822,13 @@ h2{
   h2{
     padding-top:17vh;
     display:inline-block;
-    font-size:6vw;
+    font-size:7vw;
   }
   }
   
   @media screen and (max-width: 600px) {
     h4{
      font-size:4vw;
+     margin:2px;
    }
    }
