@@ -1238,7 +1238,42 @@ text-align:left;
     border: 2px solid rgb(255, 0, 0);
     color: rgb(255, 0, 0);
   }
+
+  .intro .slide .slide-content div {
+    width: 50px;
+    height: 50px;
+    left:47%;
+    position: relative;
+    text-align:center;
+    -webkit-animation: mymove 4s infinite; 
+    animation: mymove 4s infinite;
+  }
   
+  .intro .slide .slide-content div:hover {
+   text-decoration: none;
+  }
+  
+  /* Safari 4.0 - 8.0 */
+  @-webkit-keyframes mymove {
+    from {top: 0px;}
+    to {top: 50px;}
+  }
+  
+  @keyframes mymove {
+    from {top: 0px;}
+    to {top: 50px;}
+  }
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes myfirst {
+  0%   {left: 0px; top: 0px;}
+  100%  {left: 0px; top: 200px;}
+}
+
+@keyframes myfirst {
+  0%   {left: 0px; top: 0px;}
+  100% {left: 0px; top: 200px;}
+}
   @-webkit-keyframes bar {
     0% {
       width: 0;
@@ -1775,4 +1810,42 @@ height:20px;
   -webkit-transform: translateY(-100%);
           transform: translateY(-100%);
   transition: all 0.3s 1s ease-out;
+}
+
+
+@-webkit-keyframes ease {
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  40% {
+    -webkit-transform: translateY(0px);
+            transform: translateY(0px);
+  }
+  60% {
+    -webkit-transform: translateY(0px);
+            transform: translateY(0px);
+  }
+}
+@keyframes ease {
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  40% {
+    -webkit-transform: translateY(0px);
+            transform: translateY(0px);
+  }
+  60% {
+    -webkit-transform: translateY(0px);
+            transform: translateY(0px);
+  }
 }
