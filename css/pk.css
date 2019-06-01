@@ -426,20 +426,6 @@ h1{
 
 }
 
-h2{
-  text-align:center;
-  padding-top:5vh;
-  font-size:4vw;
-  font-family:mfont;
-  color:black;
-  }
-
-  @media only screen and (max-width: 600px) {
-    h2{
-      padding-top:17vh;
-      font-size:9vw;
-    }
-    }
 
 @media only screen and (max-width: 600px) {
   .carousel__control{
@@ -511,7 +497,7 @@ h2{
   color: #fff;
 }
 [data-type="foodcamp"] .content__left {
-  background: url(../img/pk/problem.png);
+  background: url(../img/pk/problem.jpg);
   background-repeat: no-repeat;
 margin-left:20px;
 margin-top:5%;
@@ -542,7 +528,7 @@ margin-top:5%;
 @media only screen and (max-width: 600px) {
 
   [data-type="foodcamp"] .content__left {
-    background: url(../img/pk/smallproblem.png);
+    background: url(../img/pk/smallproblem.jpg);
   margin-left:10px;
   margin-bottom:15px;
   background-repeat: no-repeat;
@@ -776,3 +762,59 @@ margin-top:5%;
     margin-top: 1.45rem;
   }
 }
+
+/*arrows*/
+z {
+  border: solid #673301;
+  border-width: 0 5px 5px 0;
+  margin:20px;
+  display: inline-block;
+  padding: 10px;  text-align:center;
+
+}
+
+z:hover{
+  border: solid #673301;
+  border-width: 0 6px 6px 0;
+  display: inline-block;
+  padding: 10px; 
+
+  text-align:center;
+
+}
+.right {
+  transform: rotate(-45deg);
+
+  -webkit-transform: rotate(-45deg);
+}
+
+.left {
+  transform: rotate(135deg);
+
+  -webkit-transform: rotate(135deg);
+}
+
+.information{
+  text-align:center;
+  display:inline-block;
+}
+
+.information3{
+  text-align:center;
+}
+
+h2{
+  text-align:center;
+  padding-top:5vh;
+  font-size:4vw;
+  display:inline-block;
+  font-family:mfont;
+  color:black;
+  }
+  @media only screen and (max-width: 600px) {
+  h2{
+    padding-top:17vh;
+    display:inline-block;
+    font-size:9vw;
+  }
+  }
