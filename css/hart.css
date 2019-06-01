@@ -785,9 +785,10 @@ z:hover{
 
 @media only screen and (max-width: 600px) {
   z{
-  margin:1px;
+  margin:0px;
   }
   }
+
 .right {
   transform: rotate(-45deg);
 
