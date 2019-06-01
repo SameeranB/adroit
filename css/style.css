@@ -153,13 +153,13 @@ h3{
 }
 
 .wave {
-  background: url(../img/q.png) repeat-x;
+  background: url(../img/mom.png) repeat-x;
   position: absolute;
-  top: -7vw;
+  top: -9vw;
   width: 6400px;
   height: 198px;
-  -webkit-animation: wave 1s cubic-bezier(0.36, 0.45, 0.63, 0.53) infinite;
-          animation: wave 1s cubic-bezier(0.36, 0.45, 0.63, 0.53) infinite;
+  -webkit-animation: wave 1.1s cubic-bezier(0.36, 0.45, 0.63, 0.53) infinite;
+          animation: wave 1.1s cubic-bezier(0.36, 0.45, 0.63, 0.53) infinite;
   -webkit-transform: translate3d(0, 0, 0);
           transform: translate3d(0, 0, 0);
 }
