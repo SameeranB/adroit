@@ -784,6 +784,12 @@ z:hover{
   text-align:center;
 
 }
+
+@media only screen and (max-width: 600px) {
+  z{
+  margin:3px;
+  }
+  }
 .right {
   transform: rotate(-45deg);
 
@@ -820,3 +826,9 @@ h2{
     font-size:9vw;
   }
   }
+  
+  @media screen and (max-width: 600px) {
+    h4{
+     font-size:4vw;
+   }
+   }
