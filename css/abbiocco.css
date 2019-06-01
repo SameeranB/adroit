@@ -60,11 +60,6 @@ p{
     color:white;
     text-align:center;
   }
-  @media screen and (max-width: 600px) {
-   h4{
-    font-size:3vw;
-  }
-  }
 
   img {
     display: block;
@@ -787,7 +782,7 @@ z:hover{
 }
 @media only screen and (max-width: 600px) {
 z{
-margin:1px;
+margin:3px;
 }
 }
 .right {
@@ -826,3 +821,9 @@ h2{
     font-size:9vw;
   }
   }
+  
+  @media screen and (max-width: 600px) {
+    h4{
+     font-size:4vw;
+   }
+   }
