@@ -821,9 +821,9 @@ h2{
   }
   @media only screen and (max-width: 600px) {
   h2{
-    padding-top:15vh;
+    padding-top:17vh;
     display:inline-block;
-    font-size:6vw;
+    font-size:5vw;
   }
   }
   
