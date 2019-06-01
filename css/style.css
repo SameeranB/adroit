@@ -154,8 +154,8 @@ h3{
 @media only screen and (max-width: 600px) {
 .wave{
   background: url(../img/q.png);
-  -webkit-animation:none;
-  -webkit-transform:none;
+  -webkit-animation:none!important;
+  -webkit-transform:none!important;
 }
 }
 
