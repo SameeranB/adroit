@@ -782,7 +782,7 @@ z:hover{
 }
 @media only screen and (max-width: 600px) {
 z{
-padding:1px;
+margin:1px;
 }
 }
 .right {
