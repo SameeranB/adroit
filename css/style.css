@@ -175,7 +175,7 @@ h3{
 .wave{
   background: url(../img/q.png);
   width:100vw;
-  top:5vh;
+  top:-7vw;
   }
 
 @-webkit-keyframes wave {
