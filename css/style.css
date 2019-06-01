@@ -1238,51 +1238,35 @@ text-align:left;
     border: 2px solid rgb(255, 0, 0);
     color: rgb(255, 0, 0);
   }
-
-  .intro .slide .slide-content div {
-    width: 50px;
-    height: 50px;
-    left:47%;
-    position: relative;
-    text-align:center;
-    -webkit-animation: mymove 4s infinite; 
-    animation: mymove 4s infinite;
+  .arrow{
+      position: absolute;
+      top: 80%;
+      left: 50%;
+      transform: translate(-50%,-50%);
   }
-  
-  .intro .slide .slide-content div:hover {
-   text-decoration: none;
+  .arrow span{
+      display: block;
+      width: 30px;
+      height: 30px;
+      border-bottom: 5px solid rgb(255, 255, 255);
+      border-right: 5px solid rgb(255, 255, 255);
+      transform: rotate(45deg);
+      margin: -10px;
+      animation: animate 2s infinite;
   }
-  
-  /* Safari 4.0 - 8.0 */
-  @-webkit-keyframes mymove {
-    from {top: 0px;}
-    to {top: 50px;}
+  @keyframes animate {
+      0%{
+          opacity: 0;
+          transform: rotate(45deg) translate(-20px,-20px);
+      }
+      50%{
+          opacity: 1;
+      }
+      100%{
+          opacity: 0;
+          transform: rotate(45deg) translate(20px,20px);
+      }
   }
-  
-  @keyframes mymove {
-    from {top: 0px;}
-    to {top: 50px;}
-  }
-
-/* Safari 4.0 - 8.0 */
-@-webkit-keyframes myfirst {
-  0%   {left: 0px; top: 0px;}
-  100%  {left: 0px; top: 200px;}
-}
-
-@keyframes myfirst {
-  0%   {left: 0px; top: 0px;}
-  100% {left: 0px; top: 200px;}
-}
-  @-webkit-keyframes bar {
-    0% {
-      width: 0;
-    }
-    100% {
-      width: 100%;
-    }
-  }
-  
   @keyframes bar {
     0% {
       width: 0;
