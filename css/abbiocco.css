@@ -60,6 +60,11 @@ p{
     color:white;
     text-align:center;
   }
+  @media screen and (max-width: 600px) {
+   h4{
+    font-size:3vw;
+  }
+  }
 
   img {
     display: block;
