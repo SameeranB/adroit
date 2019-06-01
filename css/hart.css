@@ -784,9 +784,8 @@ z:hover{
 }
 
 @media only screen and (max-width: 600px) {
-  z{
+  z {
   margin:0px;
-  border: solid #22f391;
 
   }
   }
