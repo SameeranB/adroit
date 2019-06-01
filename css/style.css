@@ -174,6 +174,8 @@ h3{
 @media only screen and (max-width: 600px) {
 .wave{
   background: url(../img/qq.png);
+  width:100vw;
+  top:-15vw;
 }}
 
 @-webkit-keyframes wave {
