@@ -151,13 +151,6 @@ h3{
   bottom: 12px;
   left: 0;
 }
-@media only screen and (max-width: 600px) {
-.wave{
-  background: url(../img/q.png);
-  -webkit-animation:none!important;
-  -webkit-transform:none!important;
-}
-}
 
 .wave {
   background: url(../img/q.png) repeat-x;
@@ -172,11 +165,20 @@ h3{
 }
 
 @media only screen and (max-width: 600px) {
-.wave{
-  background: url(../img/qq.png);
-  width:100vw;
-  top:-15vw;
-}}
+  .ocean{
+    height: 25%;
+    width: 100%;
+    position: absolute;
+    left: 0;
+  }
+  .wave{
+    background: url(../img/qq.png);
+    z-index:10000;
+    width:100vw;
+    -webkit-animation:none!important;
+    -webkit-transform:none!important;
+  }
+  }
 
 @-webkit-keyframes wave {
   0% {
