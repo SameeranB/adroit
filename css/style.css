@@ -168,11 +168,13 @@ h3{
   .ocean{
     height: 25%;
     width: 100%;
+    bottom:0;
     position: absolute;
     left: 0;
   }
   .wave{
     background: url(../img/qq.png);
+    bottom:0;
     z-index:10000;
     width:100vw;
     -webkit-animation:none!important;
