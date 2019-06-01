@@ -153,7 +153,9 @@ h3{
 }
 @media only screen and (max-width: 600px) {
 .wave{
-  display:none;
+  background: url(../img/q.png);
+  -webkit-animation:none;
+  -webkit-transform:none;
 }
 }
 
