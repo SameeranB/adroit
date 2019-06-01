@@ -174,8 +174,7 @@ h3{
 @media only screen and (max-width: 600px) {
 .wave{
   background: url(../img/q.png);
-  width:100vw;
-  top:-7vw;
+  width:1005;
   }
 
 @-webkit-keyframes wave {
