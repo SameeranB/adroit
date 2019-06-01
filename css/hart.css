@@ -735,10 +735,13 @@ margin-top:5%;
 .features-item-header {
   margin-bottom: 0;
   font-size: 1.4rem;
+  font-family:ifont;
 }
 
 .features-item-text {
   margin-top: 0.3rem;
+  font-family:mfont;
+
 }
 
 @media (min-width: 900px) {
