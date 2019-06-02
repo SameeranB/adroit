@@ -140,7 +140,7 @@ h3{
 /*first section */
 
 .pageone{
-  height:100vh;
+  height:95vh;
 }
 
 /*Wave*/
@@ -148,7 +148,7 @@ h3{
   height: 5%;
   width: 100%;
   position: absolute;
-  bottom: 2px;
+  bottom: 0px;
   left: 0;
 }
 
@@ -1671,7 +1671,7 @@ height:20px;
   left: 0;
   width: 100%;
   height: 100%;
-  z-index: 10000;
+  z-index: 1000000;
   overflow: hidden;
 }
 .no-js #loader-wrapper {
