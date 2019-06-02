@@ -175,7 +175,7 @@ h3{
   .wave{
     background: url(../img/littlewave.png);
     top: -3vw;
-    overflow:hidden;
+    overflow-y:hidden;
     z-index:10000;
     width:100vw;
     -webkit-animation:none!important;
