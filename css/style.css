@@ -140,7 +140,12 @@ h3{
 /*first section */
 
 .pageone{
-  height:95vh;
+  height:100vh;
+}
+@media only screen and (max-width: 600px) {
+.pageone{
+  height:80vh;
+  }
 }
 
 /*Wave*/
@@ -173,7 +178,7 @@ h3{
     left: 0;
   }
   .wave{
-    background: url(../img/littlewave.png);
+    background: url(../img/littlewave2.png);
     top: -3vw;
     overflow-y:hidden;
     background-repeat:no-repeat;
