@@ -141,11 +141,10 @@ h3{
 
 .pageone{
   height:100vh;
-  background-color: white;
 }
 @media only screen and (max-width: 600px) {
 .pageone{
-  height:85vh;
+  height:100vh;
   }
 }
 
