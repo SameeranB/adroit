@@ -474,7 +474,6 @@ h1{
   line-height: 1.65;
   font-weight: 300;
   margin: 0;
-  opacity: 0.8;
 }
 @media only screen and (max-width: 600px) {
   .content__right {
@@ -492,7 +491,7 @@ h1{
       line-height: 1;
       font-weight: 300;
       margin: 0;
-      opacity: 0.8;}
+      }
   }
 }
 

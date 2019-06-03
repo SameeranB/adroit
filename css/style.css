@@ -37,6 +37,18 @@
   src: url(Poppins-SemiBold.ttf);
 }
 
+@font-face {
+  font-family: vfont;
+  src: url(Poppins-MediumItalic.ttf);
+}
+
+
+@font-face {
+  font-family: pfont;
+  src: url(Poppins-LightItalic.ttf);
+}
+
+
 * {
   box-sizing: border-box;
 }
@@ -160,7 +172,7 @@ h3{
 }
 
 .wave {
-  background: url(../img/mom.png) repeat-x;
+  background: url(../img/wave.png) repeat-x;
   position: absolute;
   top: -9vw;
   width: 6400px;
@@ -170,26 +182,6 @@ h3{
   -webkit-transform: translate3d(0, 0, 0);
           transform: translate3d(0, 0, 0);
 }
-
-@media only screen and (max-width: 600px) {
-  .ocean{
-    height: 25%;
-    width: 100%;
-    bottom:0;
-    position: absolute;
-    left: 0;
-  }
-  .wave{
-    background: url(../img/littlewave2.png);
-    top: -3vw;
-    overflow-y:hidden;
-    background-repeat:no-repeat;
-    z-index:10000;
-    width:100vw;
-    -webkit-animation:none!important;
-    -webkit-transform:none!important;
-  }
-  }
 
 @-webkit-keyframes wave {
   0% {
@@ -1509,7 +1501,7 @@ text-align:left;
 .testimonial {
   height: 100vh;
   position: relative;
-  background: url(../img/82.png);
+  background: url(../img/office1.png);
   padding-top: 12vh;
   background-position: center;
       background-size: cover;
@@ -1652,15 +1644,15 @@ text-align: center;
 }
 .testimonial4_slides p {
   color: #ffffff;
-  font-size: 2vw;
-  font-family:yfont;
+  font-size: 2.1vw;
+  font-family:pfont;
   line-height: 1.4;
   margin: 40px 0 20px 0;
 }
 .testimonial4_slides h4 {
 color: #ffffff;
 font-family:ifont;
-font-size: 25px;
+font-size: 23px;
 }
 
 .testimonial .carousel {
