@@ -148,12 +148,12 @@ margin-top:10px;
   right: 0;
   height: 5px;
   width: 45px;
-  background-color: #ffcd00;
+  background-color: #ffcb00;
 }
 
 .menu-collapsed {
   transition: all .25s;
-  position: fixed;
+  position: absolute;
   top: 2vw;
   right: 3vw;
   height: 25px;
@@ -177,12 +177,16 @@ margin-top:10px;
 @media screen and (max-width: 600px) {
 .bar{
   top:50px;
+  position:unset;
 }
 .menu-collapsed {
-top:40px;}
+top:40px;
 }
+}
+
 .bar:before {
   top: -10px;
+
 }
 .bar:after {
   top: 10px;
@@ -192,6 +196,14 @@ top:40px;}
   transition: all .25s;
   top: -0px;
 }
+
+@media screen and (max-width: 600px) {
+  
+  .b-a-expanded, .menu-expanded .bar:before, .menu-expanded .bar:after {
+    transition: all .25s;
+    top: 10vw;
+    right:4vw;
+  }}
 
 .menu-expanded {
   transition: all .25s;
@@ -209,6 +221,7 @@ top:40px;}
 @media screen and (max-width: 600px) {
 .menu-expanded{
   line-height:11vh;
+
 }
 }
 
