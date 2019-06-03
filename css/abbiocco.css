@@ -152,7 +152,7 @@ margin-top:10px;
 
 .menu-collapsed {
   transition: all .25s;
-  position: fixed;
+  position: absolute;
   top: 2vw;
   right: 3vw;
   height: 25px;
@@ -175,10 +175,12 @@ margin-top:10px;
 
 @media screen and (max-width: 600px) {
 .bar{
+  position: unset;
   top:50px;
 }
 .menu-collapsed {
-top:40px;}
+top:40px;
+}
 }
 .bar:before {
   top: -10px;
