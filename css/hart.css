@@ -540,10 +540,10 @@ margin-top:5%;
 @media only screen and (max-width: 600px) {
 
   [data-type="foodcamp"] .content__left {
-    background: url(../img/hart/smallproblem.png);
+    background: url(../img/hart/smallproblemm.png);
   margin-left:10px;
   background-repeat: no-repeat;
-  margin-top:15vh;
+  margin-top:28%;
   }
 }
 
