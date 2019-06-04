@@ -542,9 +542,8 @@ margin-top:5%;
   [data-type="foodcamp"] .content__left {
     background: url(../img/hart/smallproblem.png);
   margin-left:10px;
-  margin-bottom:15px;
   background-repeat: no-repeat;
-  margin-top:10vh;
+  margin-top:15vh;
   }
 }
 
