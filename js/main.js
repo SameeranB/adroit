@@ -24,6 +24,8 @@ $(document).ready(function () {
       slideDelements = $('.slide-d-child'),
       slideEelements = $('.slide-e-child'),
       slideFelements = $('.slide-f-child'),
+      slideGelements = $('.slide-g-child'),
+
       replay = $('button.replay');
 
 
@@ -34,7 +36,7 @@ $(document).ready(function () {
         slide.eq(i).fadeOut();
       }, 5500*(i+1));
     }
-      else if (i < 5) {
+      else if (i < 6) {
           setTimeout(function () {
               slide.eq(i).fadeOut();
           }, 3500 * (i + 1));
@@ -89,6 +91,13 @@ $(document).ready(function () {
         }, 300 * (i + 1));
     });
   }
+  function animateSlideG() {
+    slideGelements.each(function (i) {
+        setTimeout(function () {
+            slideGelements.eq(i).addClass('is-visible');
+        }, 300 * (i + 1));
+    });
+  }
 
   animateSlideA();
 
@@ -111,6 +120,10 @@ $(document).ready(function () {
  setTimeout(function () {
   animateSlideF();
 }, 17500);
+
+setTimeout(function () {
+  animateSlideG();
+}, 21000);
 
  replay.on('click', function () {
    location.reload(true);

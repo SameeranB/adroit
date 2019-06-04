@@ -1174,6 +1174,10 @@ text-align:left;
             transform: translateY(50px);
   }
 
+  .intro .slide.slide-g {
+    background: rgb(0, 0, 0);
+    z-index: 50;
+  }
   
   .intro .slide .slide-content {
     text-align: center;
