@@ -73,7 +73,15 @@ wrapper {
   
   overflow-x: hidden!important;
 }
-
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
+}
 /*content*/
 
 h1{
@@ -1799,7 +1807,7 @@ height:20px;
   visibility: hidden;
   -webkit-transform: translateY(-100%);
           transform: translateY(-100%);
-  transition: all 0.3s 1s ease-out;
+  transition: all 1.3s 1s ease-out;
 }
 
 
