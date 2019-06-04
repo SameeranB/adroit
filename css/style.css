@@ -240,7 +240,7 @@ h3{
 @media screen and (max-width: 600px) {
 .logo{
   left:-15vw;
-  position:fixed;
+  position:absolute;
 }
 }
 .b-a, .bar, .bar:before, .bar:after {
