@@ -653,6 +653,15 @@ svg {
   width: 80%;
   animation-play-state: running;
 }
+@media only screen and (max-width: 600px) {
+.icon-design {
+  margin-top:5vh;
+  margin-bottom:5vh;
+  padding:5vh;  
+  width: 100%;
+  animation-play-state: running;
+  }
+}
 .icon-design .anchor-part {
   animation: move 2s linear infinite;
 }
