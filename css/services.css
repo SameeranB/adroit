@@ -1197,4 +1197,31 @@ canvas {
   text-align:justify;
   font-weight: 200;
   }
+  
+  .centereds h3{
+    font-family: mfont;
+    font-size:6vw;
+    align-items: top;
+    overflow-y:auto;
+    line-height: 1.65;
+    justify-content: center;
+    color:black;
+    text-align:left;
+    padding-top:5vw;
+    padding-bottom:1.8vw;
+    padding-right:1vw;
+    padding-left:2vw;
+  
+    font-family:mfont;
+    }
+    .centereds h4{
+    padding-right:1vw;
+    color:black;  line-height: 1.4;
+    top: 0;
+    font-size:4vw;
+    padding-left:2vw;
+    font-family: mfont;
+    text-align:justify;
+    font-weight: 200;
+    }
   }
