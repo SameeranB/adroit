@@ -132,17 +132,6 @@ setTimeout(function () {
 });
 
 
-$(document).ready(function() {
- 
-  // Fakes the loading setting a timeout
-    setTimeout(function() {
-        $('body').addClass('loaded');
-    }, 3700);
- 
-});
-
-
-
 let elementsCC = document.querySelectorAll('.origin-center');
  
 elementsCC.forEach(element => {
@@ -173,3 +162,12 @@ elementsTL.forEach(element => {
   
   element.style.setProperty("transform-origin", resultTL)
 }); // forEach
+
+$(document).ready(function() {
+ 
+  // Fakes the loading setting a timeout
+    setTimeout(function() {
+        $('body').addClass('loaded');
+    }, 3700);
+ 
+});
