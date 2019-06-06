@@ -502,6 +502,16 @@ bottom:0;
   top:0;
   bottom:0;
   }
+  
+.columnntu {
+  float: left;
+  width: 50%;
+  right:0;
+  height:100vh;
+  left:0;
+  top:0;
+  bottom:0;
+  }
 
 .rown:after {
 content: "";
