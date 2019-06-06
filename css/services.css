@@ -1119,7 +1119,10 @@ canvas {
   }
   h3{
     font-size:4vw;
-    line-height:8vh;
+  }
+  .info{
+    line-height: 5vw;
+
   }
   h5{
     font-size:6vw;
