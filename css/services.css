@@ -116,12 +116,7 @@ font-weight: 200;
   width: 45px;
   background-color: rgba(255, 0, 0, 0.95);
 }
-ul{
-    margin: 0;
-    padding: 0;
-    list-style: none;
-  }
-}
+
 .menu-collapsed {
   transition: all .25s;
   position: fixed;
@@ -164,6 +159,12 @@ top:40px;}
   top: -0px;
 }
 
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
 .menu-expanded {
   transition: all .25s;
   text-align: center;
@@ -198,16 +199,7 @@ top:40px;}
   color: #fff;
   display: block;
 }
-@media screen and (max-width: 600px) {
 
-  .menu-expanded a {
-    transition: all .15s;
-    text-decoration: none;
-    font-size: 3em;
-    padding: 5px;
-    color: #fff;
-    display: block;
-}
 .menu-expanded a:hover {
   transition: all .15s;
   letter-spacing: 4px;
