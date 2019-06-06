@@ -398,7 +398,7 @@ margin-left:20px;
 {
 text-align:left;
 margin-bottom:20px;
-margin-top:30px;
+margin-top:18vh;
 padding-left:2vw;
 
 }
@@ -407,7 +407,16 @@ padding-left:2vw;
 {
 text-align:left;
 margin-bottom:20px;
-margin-top:30px;
+margin-top:18vh;
+padding-left:1vw;
+
+}
+
+.inner-divd
+{
+text-align:left;
+margin-bottom:20px;
+margin-top:10vh;
 padding-left:1vw;
 
 }
