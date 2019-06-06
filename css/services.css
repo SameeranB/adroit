@@ -53,6 +53,36 @@ body {
   height:95vh;
 
 }
+.project{
+  min-height:50vh;
+  background-color:white;
+}
+.project h3{
+  font-family: mfont;
+  font-size:3vw;
+  align-items: top;
+  overflow-y:auto;
+  line-height: 1.65;
+  justify-content: center;
+  color:black;
+  text-align:center;
+  padding-top:5vw;
+  padding-bottom:1.8vw;
+  padding-left:1vw;
+  font-family:mfont;
+}
+.project h4{
+  
+padding-left:1vw;
+color:black;  line-height: 1.4;
+top: 0;
+font-size: 1.4vw;
+font-family: mfont;
+padding-bottom:13vh;
+text-align:center;
+font-weight: 200;
+}
+
 
 .noselect {
   -webkit-touch-callout: none; /* iOS Safari */
@@ -431,7 +461,7 @@ height:100vh;
 /*footer*/
 .hundred{
   height:100vh;
-  background-color: rgb(255, 68, 68);
+  background-color:black;
 }
 
 .footer{
