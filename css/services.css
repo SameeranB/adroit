@@ -512,11 +512,11 @@ clear: both;
 @media screen and (max-width: 600px) {
 .columnn {
   width: 100%;
-  height:auto;
+  height:130vh;
 }
 .columnnt {
   width: 100%;
-  height:auto;
+  height:130vh;;
 }
 .inner-divd{
   display:none;
