@@ -888,27 +888,27 @@ width: 120px;
   -webkit-appearance: none;
      -moz-appearance: none;
           appearance: none;
-  background-color: #ff0000;
+  background-color: #0000;
   border: 2px solid #e74c3c;
   border-radius: 0.2em;
   color: #e74c3c;
   cursor: pointer;
-  text-align: center;
+  text-align: left;
   display: inline-block;
-  align-self: center;
+  align-self: left;
   font-size: 1rem;
   font-weight: 400;
   line-height: 1;
   margin: 20px;
-  padding: 0.8em 1.5em;
+  padding: 0.8em 3.5em;
   text-decoration: none;
-  text-align: center;
+  text-align: left;
   text-transform: uppercase;
   font-family: gfont;
   font-weight: 700;
 }
 .btnn:hover, .btnn:focus {
-  color: rgb(0, 0, 0);
+  color: #ffffff;
   outline: 0;
 }
 
@@ -941,17 +941,18 @@ width: 120px;
   outline: 0;
 }
 
+
 .fourth {
   border-color: #ff0000;
-  color: rgb(255, 255, 255);
-  background-image: linear-gradient(45deg, #ffffff 50%, transparent 50%);
+  color:black;
+  background-image: linear-gradient(45deg, #ff0000 50%, transparent 50%);
   background-position: 100%;
   background-size: 400%;
   transition: background-color 300ms ease-in-out;
 }
 .fourth:hover {
   background-position: 0;
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
 
 }
 
