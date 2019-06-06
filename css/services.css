@@ -513,10 +513,24 @@ text-align: justify;
 height:100vh;
 }
   
+
 /*footer*/
 .hundred{
   height:100vh;
   background-color:black;
+}
+
+.hundred img{
+  width:50%;
+}
+@media only screen and (max-width: 600px) {
+  
+.hundred{
+  height:100vh;
+}
+.hundred img{
+  width:100%;
+  }
 }
 
 .footer{
