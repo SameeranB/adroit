@@ -655,9 +655,8 @@ svg {
 }
 @media only screen and (max-width: 600px) {
 .icon-design {
-  margin-top:5vh;
-  margin-bottom:5vh;
-  padding:5vh;  
+ margin:auto;
+ align:center;
   width: 90%;
   animation-play-state: running;
   }
