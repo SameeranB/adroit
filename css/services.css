@@ -193,6 +193,16 @@ top:40px;}
   color: #fff;
   display: block;
 }
+@media screen and (max-width: 600px) {
+
+  .menu-expanded a {
+    transition: all .15s;
+    text-decoration: none;
+    font-size: 3em;
+    padding: 2px;
+    color: #fff;
+    display: block;
+}
 .menu-expanded a:hover {
   transition: all .15s;
   letter-spacing: 4px;
