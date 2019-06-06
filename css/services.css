@@ -514,9 +514,14 @@ clear: both;
   width: 100%;
   height:130vh;
 }
-.columnnt {
+.columnntu {
   width: 100%;
   height:130vh;;
+}
+
+.columnnt {
+  width: 100%;
+  height:auto;
 }
 .inner-divd{
   display:none;
