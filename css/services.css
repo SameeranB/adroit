@@ -657,6 +657,7 @@ svg {
 .icon-design {
  margin:auto;
  align:center;
+ padding:5vh;
   width: 90%;
   animation-play-state: running;
   }
