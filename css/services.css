@@ -242,7 +242,7 @@ h3{
     text-align:center;
     font-family: rfont;
     padding-top:10px;
-    font-size:1.8vw;
+    font-size:2vw;
     color:rgb(255, 255, 255);
     }
     
@@ -1100,5 +1100,9 @@ canvas {
   }
   h3{
     font-size:4vw;
+  }
+  h5{
+    font-size:6vw;
+
   }
   }
