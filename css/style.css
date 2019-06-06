@@ -990,7 +990,7 @@ text-align:left;
   }
   @media only screen and (max-width: 600px) {
     .intro{
-  min-height:95vh;
+  min-height:90vh;
     }
     }
 .intro .slide {
