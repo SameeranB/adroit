@@ -58,27 +58,27 @@ body {
   background-color:white;
 }
 .project h3{
-  font-family: mfont;
-  font-size:3vw;
+  font-family: ifont;
+  font-size:4vw;
   align-items: top;
   overflow-y:auto;
   line-height: 1.65;
   justify-content: center;
   color:black;
   text-align:center;
-  padding-top:5vw;
-  padding-bottom:1.8vw;
+  padding-top:10vw;
+  padding-bottom:1vw;
   padding-left:1vw;
-  font-family:mfont;
 }
 .project h4{
   
 padding-left:1vw;
-color:black;  line-height: 1.4;
+color:black; 
+line-height: 1.4;
 top: 0;
 font-size: 1.4vw;
 font-family: mfont;
-padding-bottom:13vh;
+padding-bottom:2vh;
 text-align:center;
 font-weight: 200;
 }
@@ -343,9 +343,37 @@ p{
   outline: 0;
 }
 
+.btn {
+  box-sizing: border-box;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  background-color: #0000;
+  border: 2px solid #e74c3c;
+  border-radius: 0.2em;
+  color: #e74c3c;
+  cursor: pointer;
+  text-align: left;
+  display: inline-block;
+  align-self: left;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1;
+  padding: 0.8em 3.5em;
+  text-decoration: none;
+  text-align: left;
+  text-transform: uppercase;
+  font-family: gfont;
+  font-weight: 700;
+}
+.btn:hover, .btn:focus {
+  color: #ffffff;
+  outline: 0;
+}
+
 .fourth {
   border-color: #ff0000;
-  color: rgb(253, 253, 253);
+  color:black;
   background-image: linear-gradient(45deg, #ff0000 50%, transparent 50%);
   background-position: 100%;
   background-size: 400%;
@@ -364,10 +392,25 @@ text-align:center;
 margin-bottom:20px;
 margin-top:30px;
 margin-left:20px;
+}
 
+.inner-divl
+{
+text-align:left;
+margin-bottom:20px;
+margin-top:30px;
+padding-left:2vw;
 
 }
 
+.inner-divr
+{
+text-align:left;
+margin-bottom:20px;
+margin-top:30px;
+padding-left:1vw;
+
+}
 .yellow {
     background-color: #fbce33;
     align:center;
