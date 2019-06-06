@@ -116,7 +116,12 @@ font-weight: 200;
   width: 45px;
   background-color: rgba(255, 0, 0, 0.95);
 }
-
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+}
 .menu-collapsed {
   transition: all .25s;
   position: fixed;
@@ -128,11 +133,6 @@ font-weight: 200;
   cursor: pointer;
 }
 
-ul {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
 .menu-collapsed ul {
   transition: all 0s;
   position: fixed;
@@ -204,7 +204,7 @@ top:40px;}
     transition: all .15s;
     text-decoration: none;
     font-size: 3em;
-    padding: 2px;
+    padding: 5px;
     color: #fff;
     display: block;
 }
