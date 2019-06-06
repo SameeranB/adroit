@@ -231,9 +231,7 @@ h2{
     color:rgb(255, 255, 255);
     }
   
-    
-   
-    h3{
+h3{
       text-align:justify;
       padding-top:10px;
       font-size:1.5vw;
@@ -1097,6 +1095,10 @@ canvas {
 @media only screen and (max-width: 600px) {
   h2{
     padding-top:17vh;
-align:center;    font-size:9vw;
+  align:center;
+  font-size:9vw;
+  }
+  h3{
+    font-size:4vw;
   }
   }
