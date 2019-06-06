@@ -493,6 +493,16 @@ top:0;
 bottom:0;
 }
 
+.columnnt {
+  float: left;
+  width: 50%;
+  right:0;
+  height:100vh;
+  left:0;
+  top:0;
+  bottom:0;
+  }
+
 .rown:after {
 content: "";
 display: table;
@@ -502,6 +512,10 @@ clear: both;
 @media screen and (max-width: 600px) {
 .columnn {
   width: 100%;
+  height:auto;
+}
+.columnnt {
+  width: auto;
   height:auto;
 }
 }
