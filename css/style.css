@@ -1647,7 +1647,7 @@ height:20px;
   left: 0;
   z-index:700;
   right: 0;
-  bottom: 1vh;
+  bottom: 0.95vh;
   top: 0;
   margin: auto;
 }
