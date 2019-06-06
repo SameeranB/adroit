@@ -516,7 +516,18 @@ clear: both;
 }
 .columnnt {
   width: 100%;
-  height:130%;
+  height:auto;
+}
+.inner-divd{
+  display:none;
+}
+
+.inner-divl{
+  display:none;
+}
+
+.inner-divr{
+  display:none;
 }
 }
 
