@@ -159,7 +159,6 @@ top:40px;}
   top: -0px;
 }
 
-
 ul {
   margin: 0;
   padding: 0;
@@ -1094,3 +1093,10 @@ canvas {
 .count-particles{
   border-radius: 0 0 3px 3px;
 }
+
+@media only screen and (max-width: 600px) {
+  h2{
+    padding-top:17vh;
+align:center;    font-size:9vw;
+  }
+  }
