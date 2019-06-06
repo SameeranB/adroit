@@ -907,6 +907,12 @@ width: 120px;
   font-family: gfont;
   font-weight: 700;
 }
+
+@media only screen and (max-width: 600px) {
+  .btnn{padding: 2.3vw 4.5vw;}
+
+}
+
 .btnn:hover, .btnn:focus {
   color: #ffffff;
   outline: 0;
