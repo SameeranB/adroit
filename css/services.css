@@ -49,7 +49,7 @@ body {
   overflow-x: hidden;
 }
 .trial{
-  background-image:url('../img/office2.png');
+  background-color:black;
   height:95vh;
 
 }
@@ -1037,4 +1037,54 @@ animation-play-state: running;
   to {
     transform: rotate(-1turn);
   }
+}
+
+.arrow{
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+.arrow span{
+  display: block;
+  width: 30px;
+  height: 30px;
+  border-bottom: 5px solid rgb(255, 255, 255);
+  border-right: 5px solid rgb(255, 255, 255);
+  transform: rotate(45deg);
+  margin: -10px;     
+  animation: animate 2s infinite;
+}
+@keyframes animate {
+  0%{
+      opacity: 0;
+      transform: rotate(45deg) translate(-20px,-20px);
+  }
+  50%{
+      opacity: 1;
+  }
+  100%{
+      opacity: 0;
+      transform: rotate(45deg) translate(20px,20px);
+  }
+}
+canvas {
+  display: block;
+  vertical-align: bottom;
+}
+
+/* ---- particles.js container ---- */
+
+#particles-js {
+  position: absolute;
+  width: 100vw;
+  height:100vh;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.count-particles{
+  border-radius: 0 0 3px 3px;
 }
