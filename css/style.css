@@ -991,7 +991,7 @@ text-align:left;
 /*page 1 slides*/
 
 .intro {
-  min-height: 90vh;
+  min-height: 97vh;
   position: relative;
   }
   @media only screen and (max-width: 600px) {
@@ -1647,10 +1647,18 @@ height:20px;
   left: 0;
   z-index:700;
   right: 0;
-  bottom: 0.7vh;
+  bottom: 3vh;
   top: 0;
   margin: auto;
 }
+@media screen and (max-width: 600px) {
+.waveWrapper {
+    bottom: 0.7vh;
+    top: 0;
+    margin: auto;
+  }
+}
+
 .waveWrapperInner {
   position: absolute;
   width: 100%;
