@@ -62,7 +62,7 @@ body {
   justify-content: center;
   color:black;
   text-align:center;
-  padding-top:55vw;
+  padding-top:50vw;
   padding-bottom:1vw;
 }
 
@@ -81,7 +81,6 @@ body {
 .project h3{
   font-size:6vw;
   margin-bottom:5vh;  
-  padding-top:90vw;
   padding:2px;
 }
 .project h4{
