@@ -733,6 +733,13 @@ svg {margin:auto;
   animation-iteration-count: infinite;
   animation-timing-function: linear;
 }
+@media only screen and (max-width: 600px) {
+
+  .icon-develop {
+    width: 100%;
+    margin:auto;
+    padding:10vh;}
+}
 .icon-develop .gear-b {
   animation: rotate-reverse 6s;
 }
