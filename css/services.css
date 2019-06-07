@@ -493,7 +493,7 @@ top:0;
 bottom:0;
 }
 
-.columnnt {
+.columnc {
   float: left;
   width: 50%;
   right:0;
@@ -503,15 +503,6 @@ bottom:0;
   bottom:0;
   }
   
-.columnntu {
-  float: left;
-  width: 50%;
-  right:0;
-  height:100vh;
-  left:0;
-  top:0;
-  bottom:0;
-  }
 
 .rown:after {
 content: "";
@@ -524,14 +515,9 @@ clear: both;
   width: 100%;
   height:50vh;
 }
-.columnntu {
+.columnc {
   width: 100%;
-  height:130vh;;
-}
-
-.columnnt {
-  width: 100%;
-  height:auto;
+  height:80vh;
 }
 .inner-divd{
   display:none;
