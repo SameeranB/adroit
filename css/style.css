@@ -1464,14 +1464,6 @@ text-align:left;
   background-position: center;
       background-size: cover;
 }
-#testimonial4 .carousel-inner:hover{
-cursor: -moz-grab;
-cursor: -webkit-grab;
-}
-#testimonial4 .carousel-inner:active{
-cursor: -moz-grabbing;
-cursor: -webkit-grabbing;
-}
 #testimonial4 .carousel-inner .item{
 overflow: hidden;
 }
