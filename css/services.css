@@ -665,6 +665,11 @@ svg {margin:auto;
   padding: 10vh;
   width: 80%;
 }
+@media only screen and (max-width: 600px) {
+svg{
+  width:100%;
+}
+}
 .icon-wrap {
   justify-content: space-around;
   align-items: center;
