@@ -688,7 +688,7 @@ svg{
 @media only screen and (max-width: 600px) {
 .icon-design {
  margin:auto;
- align:right;
+ padding-left:2vw;
  padding:5vh;
   width: 90%;
   animation-play-state: running;
@@ -870,7 +870,8 @@ animation-play-state: running;
 @media only screen and (max-width: 600px) {
   .icon-wordpess{
     width:100%;
-    margin:5vh;
+    padding:5vh;
+    padding-left:2vw;
   }
 }
 .icon-wordpress .graph {
