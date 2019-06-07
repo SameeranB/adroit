@@ -867,6 +867,12 @@ svg{
  width:85%;
 animation-play-state: running;
 }
+@media only screen and (max-width: 600px) {
+  .icon-wordpess{
+    width:90%;
+    margin:5vh;
+  }
+}
 .icon-wordpress .graph {
   animation: bounce 1.4s ease-in-out infinite;
 }
