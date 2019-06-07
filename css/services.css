@@ -869,7 +869,7 @@ animation-play-state: running;
 }
 @media only screen and (max-width: 600px) {
   .icon-wordpess{
-    width:90%;
+    width:100%;
     margin:5vh;
   }
 }
