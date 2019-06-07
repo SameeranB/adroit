@@ -522,7 +522,7 @@ clear: both;
 @media screen and (max-width: 600px) {
 .columnn {
   width: 100%;
-  height:130vh;
+  height:50vh;
 }
 .columnntu {
   width: 100%;
