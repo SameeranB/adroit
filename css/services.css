@@ -54,27 +54,20 @@ body {
 
 }
 .project{
-  min-height:50vh;
   background-color:white;
 }
 .project h3{
   font-family: ifont;
   font-size:4vw;
-  align-items: top;
-  overflow-y:auto;
-  line-height: 1.65;
   justify-content: center;
   color:black;
   text-align:center;
-  padding-top:10vw;
+  padding-top:55vw;
   padding-bottom:1vw;
-  padding-left:1vw;
 }
 
 .project h4{
-  
-  padding-left:1vw;
-  color:black; 
+    color:black; 
   line-height: 1.4;
   top: 0;
   font-size: 1.4vw;
