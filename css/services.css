@@ -738,7 +738,7 @@ svg {margin:auto;
   .icon-develop {
     width: 100%;
     margin:auto;
-    padding:10vh;}
+    padding:5vh;}
 }
 .icon-develop .gear-b {
   animation: rotate-reverse 6s;
