@@ -426,7 +426,10 @@ img {
   width: 55%;
   height:auto;
 }
+@media only screen and (max-width: 600px) {
+  img{width: 50%;}
 
+}
 
 .headingsuccess {
   text-align: center;
