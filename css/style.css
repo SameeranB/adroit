@@ -221,6 +221,9 @@ h3{
 }
 .menu-collapsed {
 top:40px;}
+.b-a, .bar, .bar:before, .bar:after {
+width:40px;
+}
 }
 .bar:before {
   top: -10px;
