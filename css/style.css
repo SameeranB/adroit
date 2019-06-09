@@ -189,12 +189,12 @@ h3{
   right: 0;
   height: 5px;
   width: 45px;
-  background-color: rgba(255, 0, 0, 0.95);
+  background-color: #ff0000;
 }
 
 .menu-collapsed {
   transition: all .25s;
-  position: fixed;
+  position: absolute;
   top: 2vw;
   right: 3vw;
   height: 25px;
@@ -218,15 +218,16 @@ h3{
 @media screen and (max-width: 600px) {
 .bar{
   top:50px;
+  position:unset;
 }
 .menu-collapsed {
-top:40px;}
-.b-a, .bar, .bar:before, .bar:after {
-width:40px;
+top:40px;
 }
 }
+
 .bar:before {
   top: -10px;
+
 }
 .bar:after {
   top: 10px;
@@ -236,6 +237,14 @@ width:40px;
   transition: all .25s;
   top: -0px;
 }
+
+@media screen and (max-width: 600px) {
+  
+  .b-a-expanded, .menu-expanded .bar:before, .menu-expanded .bar:after {
+    transition: all .25s;
+    top: 10vw;
+    right:4vw;
+  }}
 
 .menu-expanded {
   transition: all .25s;
@@ -253,6 +262,7 @@ width:40px;
 @media screen and (max-width: 600px) {
 .menu-expanded{
   line-height:11vh;
+
 }
 }
 
@@ -284,6 +294,12 @@ width:40px;
 }
 .menu-expanded .bar:after {
   transform: rotate(-225deg);
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
 
      
@@ -632,11 +648,6 @@ padding-bottom:50px;
 }
 }
 
-ul {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
 
 .bg-gray {
   background-color: #ffffff;
