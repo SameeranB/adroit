@@ -124,7 +124,7 @@ padding:2px;
 
 .menu-collapsed {
   transition: all .25s;
-  position: absolute;
+  position: fixed;
   top: 2vw;
   right: 3vw;
   height: 25px;
