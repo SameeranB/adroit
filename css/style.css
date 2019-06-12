@@ -242,7 +242,7 @@ top:55px;
   
   .b-a-expanded, .menu-expanded .bar:before, .menu-expanded .bar:after {
     transition: all .25s;
-    top: 20vw;
+    top: 15vw;
     right:4vw;
   }}
 
