@@ -1457,6 +1457,22 @@ text-align:left;
 
 }
 
+.parallax {
+  /* The image used */
+  background-image: url("../img/office1.png");
+
+
+  /* Set a specific height */
+  min-height: 300px; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
 .testimonial:after {
   position: absolute;
   top: -0 !important;
@@ -1472,7 +1488,6 @@ text-align:left;
 .testimonial {
   height: 100vh;
   position: relative;
-  background: url(../img/office1.png);
   padding-top: 12vh;
   background-position: center;
       background-size: cover;
