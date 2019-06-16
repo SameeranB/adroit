@@ -217,8 +217,8 @@ h3{
 
 @media screen and (max-width: 600px) {
 .bar{
-  top:75px;
-  right: 5vw;
+  top:95px;
+  right: 7vw;
   position:unset;
 }
 .menu-collapsed {
