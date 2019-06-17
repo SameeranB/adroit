@@ -124,7 +124,7 @@ padding:2px;
 
 .menu-collapsed {
   transition: all .25s;
-  position: fixed;
+  position: absolute;
   top: 2vw;
   right: 3vw;
   height: 25px;
@@ -147,11 +147,12 @@ padding:2px;
 
 @media screen and (max-width: 600px) {
 .bar{
-  top:65px;
+  top:75px;
+  right:7vw;
   position:unset;
 }
 .menu-collapsed {
-top:55px;
+top:65px;
 }
 }
 
