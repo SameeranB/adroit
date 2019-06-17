@@ -182,6 +182,7 @@ h3{
   position:absolute;
 }
 }
+
 .b-a, .bar, .bar:before, .bar:after {
   transition: all .25s;
   content: "";
@@ -194,7 +195,7 @@ h3{
 
 .menu-collapsed {
   transition: all .25s;
-  position: fixed;
+  position: absolute;
   top: 2vw;
   right: 3vw;
   height: 25px;
@@ -217,12 +218,12 @@ h3{
 
 @media screen and (max-width: 600px) {
 .bar{
-  right: 7vw;
+  top:75px;
+  right:7vw;
   position:unset;
 }
 .menu-collapsed {
 top:65px;
-right:7vw;
 }
 }
 
@@ -302,8 +303,6 @@ ul {
   padding: 0;
   list-style: none;
 }
-
-     
     
 /*About Us Section*/
 
