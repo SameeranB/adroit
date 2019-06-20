@@ -155,9 +155,9 @@ margin-top:10px;
 .menu-collapsed {
   transition: all .25s;
   position: absolute;
-  top: 2vw;
+  top: 3vw;
   right: 3vw;
-  height: 25px;
+  height: 20px;
   width: 35px;
   z-index: 1000;
   cursor: pointer;
@@ -170,23 +170,24 @@ margin-top:10px;
 }
 
 .bar {
-  position: fixed;
+  position: unset;
   right: 3vw;
-  top:3vw;
+  top:4vw;
 }
 
 @media screen and (max-width: 600px) {
 .bar{
-  top:65px;
+  top:75px;
+  right:7vw;
   position:unset;
 }
 .menu-collapsed {
-top:55px;
+top:65px;
 }
 }
 
 .bar:before {
-  top: -10px;
+  top: 20px;
 
 }
 .bar:after {
@@ -195,7 +196,8 @@ top:55px;
 
 .b-a-expanded, .menu-expanded .bar:before, .menu-expanded .bar:after {
   transition: all .25s;
-  top: -0px;
+  top: 4vw;
+  right:3vw;
 }
 
 @media screen and (max-width: 600px) {
