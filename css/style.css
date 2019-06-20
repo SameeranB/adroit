@@ -272,7 +272,7 @@ top:65px;
 .menu-expanded ul {
   transition: all 0s;
   position: relative;
-  width:100%;
+  width:100%; 
   right: 0;
   
 }
@@ -283,10 +283,12 @@ top:65px;
   padding: 5px;
   color: #fff;
   display: block;
+  
 }
 .menu-expanded a:hover {
   transition: all .15s;
   letter-spacing: 4px;
+ 
 }
 .menu-expanded .bar {
   background-color: transparent;
@@ -303,6 +305,11 @@ ul {
   margin: 0;
   padding: 0;
   list-style: none;
+}
+
+span{
+  padding-bottom: 5px;
+  border-bottom: 4px solid red;
 }
     
 /*About Us Section*/

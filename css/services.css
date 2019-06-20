@@ -228,6 +228,10 @@ top:65px;
   transform: rotate(-225deg);
 }
 
+span{
+  padding-bottom: 5px;
+  border-bottom: 4px solid red;
+}
 ul {
   margin: 0;
   padding: 0;
