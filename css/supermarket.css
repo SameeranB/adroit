@@ -141,6 +141,13 @@ margin-top:10px;
   position:absolute;
 }
 }
+
+
+span{
+  padding-bottom: 5px;
+  border-bottom: 4px solid #0084bd;
+}
+
 .b-a, .bar, .bar:before, .bar:after {
   transition: all .25s;
   content: "";

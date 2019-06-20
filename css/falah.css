@@ -151,6 +151,12 @@ margin-top:10px;
   background-color: #ffcb00;
 }
 
+span{
+  padding-bottom: 5px;
+  border-bottom: 4px solid #ffcb00;
+}
+    
+
 .menu-collapsed {
   transition: all .25s;
   position: absolute;

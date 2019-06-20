@@ -152,6 +152,10 @@ margin-top:10px;
   background-color: #22a022;
 }
 
+span{
+  padding-bottom: 5px;
+  border-bottom: 4px solid #22a022;
+}
 .menu-collapsed {
   transition: all .25s;
   position: absolute;

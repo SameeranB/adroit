@@ -125,6 +125,10 @@ margin-top:10px;
     align:center;
 }
 
+span{
+  padding-bottom: 5px;
+  border-bottom: 4px solid #ffb000;
+}
 /*navbar*/
 .logo {
   z-index:1000;
