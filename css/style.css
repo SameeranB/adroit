@@ -1996,7 +1996,7 @@ height:90vh;
 }
 @media screen and (max-width: 767px) {
   .material-card {
-    width:90vw;
+    width:75vw;
 
   }}
 .material-card h2 {
