@@ -2233,6 +2233,8 @@ height:90vh;
     left: auto;
     padding: 50px 30px 70px 30px;
     bottom: 0;
+    top: 100px;
+
   }
 }
 .material-card.mc-active .mc-footer {
