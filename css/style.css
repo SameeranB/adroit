@@ -1955,7 +1955,11 @@ height:90vh;
 @media only screen and (max-width: 600px) {
   .headingngo{
     font-size:30px;
-  }}
+  }
+
+  .ngo{
+    height:190vh;
+    }}
 
 .img-responsive{
   display:block;
