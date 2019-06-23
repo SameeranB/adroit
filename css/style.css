@@ -2201,14 +2201,7 @@ height:90vh;
   transition: all 0.3s;
 }
 .material-card.mc-active .img-container {
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  border-radius: 50%;
-  left: 0;
-  top: 6px;
-  width: 0px;
-  height: 0px;
-  z-index: 20;
+ display: none;
 }
 .material-card.mc-active .mc-content {
   padding-top: 5.6em;
