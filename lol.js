@@ -49,7 +49,7 @@ var data = [{
   
   var color = d3.scaleOrdinal(); 
   color.domain(title(data))
-    .range(["#2BDFBB", "#DF2B4F", "#EE6617", "#FFBF00", '#423E6E', '#E24161']);
+    .range(["red", "#DF2B4F", "#EE6617", "#FFBF00", '#423E6E', '#E24161']);
   
   var arc = d3.arc()
     .outerRadius(radius - 10)
