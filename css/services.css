@@ -305,7 +305,7 @@ h3{
 
 .info{
   color:rgb(255, 255, 255);
-  line-height: 3vw;
+  line-height: 2vw;
   text-align:center;
  padding-left:10vw;
  padding-right:10vw;
@@ -1141,7 +1141,7 @@ animation-play-state: running;
 
 .arrow{
   position: absolute;
-  top: 70%;
+  top: 50%;
   left: 50%;
   transform: translate(-50%,-50%);
 }
@@ -1183,7 +1183,7 @@ canvas {
 #particles-js {
   position: absolute;
   width: 100vw;
-  height:100vh;
+  height:150vh;
   background-color: transparent;
   background-repeat: no-repeat;
   background-size: cover;
