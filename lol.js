@@ -1,9 +1,8 @@
 
-
 var data = [{
     "Title": "Define",
     "Amount": 1000,
-    "Description": "To fully meet your goals, we have to understand what they are, why they're important, to shape how we’re going to get there."
+    "Description": " /ˈmiːnɪŋ/, we have to understand what they are, why they're important, to shape how we’re going to get there."
   }, {
     "Title": "Devise",
     "Amount": 1000,
@@ -49,7 +48,7 @@ var data = [{
   
   var color = d3.scaleOrdinal(); 
   color.domain(title(data))
-    .range(["red", "#DF2B4F", "#EE6617", "#FFBF00", '#423E6E', '#E24161']);
+    .range(["#ec1515", "#ec6a6a", "#6d0101", "#d13636", '#a00000']);
   
   var arc = d3.arc()
     .outerRadius(radius - 10)
