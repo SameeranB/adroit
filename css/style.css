@@ -124,6 +124,14 @@ h3{
     font-size:1vw;
     color:rgb(255, 255, 255);
   }
+  
+
+h8{
+  text-align:center;
+  padding-top:40px;
+  font-family:mfont;
+  }
+
   @media screen and (max-width: 600px) {
   
     h5{
