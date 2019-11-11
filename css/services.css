@@ -53,6 +53,11 @@ body {
   height:95vh;
 
 }
+
+.text-center a:hover{
+  color:red;
+  
+  }
 .project{
   background-color:white;
 }

@@ -51,6 +51,11 @@ body {
 p{
   font-family: rfont;
 }
+
+.text-center a:hover{
+  color:red;
+  
+  }
   h6{
     text-align:center;
     padding-top:10px;

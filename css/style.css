@@ -1928,7 +1928,10 @@ height:20px;
 }
 
 
+.text-center a:hover{
+color:red;
 
+}
 
 .ngo{
 height:90vh;

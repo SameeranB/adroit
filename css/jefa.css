@@ -47,6 +47,10 @@ body {
   background: rgb(255, 255, 255);
 }
   
+.text-center a:hover{
+  color:red;
+  
+  }
 p{
   font-family: rfont;
 }
