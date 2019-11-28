@@ -2335,3 +2335,6 @@ text-decoration: underline;
 .ai{
   height:450px;
 }
+.ai h1{
+  font-family: one;
+}
