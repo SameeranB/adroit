@@ -1007,11 +1007,7 @@ width: 120px;
   background-size: 400%;
   transition: background-color 300ms ease-in-out;
 }
-.seven:hover {
-  background-position: 0;
-  color: white;
 
-}
 
 .sixth {
   border-color: #ff0000;
