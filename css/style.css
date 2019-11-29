@@ -2345,17 +2345,54 @@ height:110vh;
 padding-top:0px;
 
 }
-.jarvis-img img{
+.jarvis-img{
 padding-top:150px;
 display: block;
 margin-right:auto;
+background: url(../img/jarvis.gif);
+background-repeat:no-repeat;
+background-position: 50px;
 margin-left:auto;
+padding-bottom:40px;
+}
+
+
+.jarvis2-img{
+padding-top:150px;
+margin-right:auto;
+background-position: 50px;
+margin-left:auto;
+display: none;
 padding-bottom:40px;
 }
 
 
 @media screen and (max-width: 600px) {
 
+  .jarvis2-img{
+    padding-top:50px;
+    display: block;
+    margin-right:auto;
+    background-position: 50px;
+    margin-left:auto;
+    padding-bottom:40px;
+    }
+    
+  .jarvis2-img img{
+    padding-top:50px;
+    display: block;
+    margin-right:auto;
+    background-position: 50px;
+    margin-left:auto;
+    padding-bottom:40px;
+    }
+
+    .jarvis-img{
+      display: none;
+
+    }
+    
+    
   .ai{
     padding-left:20px;
     height:100vh;
