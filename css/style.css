@@ -2334,6 +2334,9 @@ text-decoration: underline;
 
 .ai h1{
   font-family: one;
+  text-align:left;
+  padding-top:35vh;
+  color:white;
 }
 
 .ai{
@@ -2360,6 +2363,12 @@ padding-bottom:40px;
     
     }
 
+    .ai h1{
+      font-family: one;
+      text-align:left;
+      padding-top:10vh;
+      color:white;
+    }
     .jarvis-img img{
       padding-top:50px;
       display: block;
