@@ -907,42 +907,82 @@ h2{
   
     .centered {
       text-align: justify;
-      height:50vh;
+      height:80vh;
       }
   
   }
 
+  .centered h3{
+    font-family: mfont;
+    font-size:2.9vw;
+    align-items: top;
+    overflow-y:auto;
+    line-height: 1.65;
+    justify-content: center;
+    color:rgb(255, 255, 255);
+    text-align:left;
+    padding-top:5vw;
+    padding-bottom:1.8vw;
+    padding-left:1vw;
+    font-family:mfont;
+    }
+    
+    h3 font{
+      font-size:1.16em;
+    }
+
+    .centered h4{
+    padding-left:1vw;
+    color:rgb(255, 255, 255);  line-height: 1.4;
+    top: 0;
+    font-size: 1.4vw;
+    padding-right:2vw;
+    font-family: mfont;
+    text-align:justify;
+    font-weight: 200;
+    }
+    
+  
+@media only screen and (max-width: 600px) {
+  h2{
+    padding-top:15vh;
+  align:center;
+  font-size:9vw;
+  }
+  h3{
+    font-size:4vw;
+  }
+  .info{
+    line-height: 5vw;
+
+  }
+  h5{
+    font-size:6vw;
+    margin-bottom:5vh;
+
+  }
   
 .centered h3{
   font-family: mfont;
-  font-size:2.8vw;
+  font-size:6vw;
+  margin-bottom:3vh;
   align-items: top;
   overflow-y:auto;
   line-height: 1.65;
   justify-content: center;
-  color:rgb(255, 255, 255);
   text-align:left;
+  padding-top:3vw;
   padding-bottom:1.8vw;
-  padding-left:1vw;
-  font-family:mfont;
   }
   
-  .centered h4{
+.centered h4{
   padding-left:1vw;
-  color:rgb(255, 255, 255);
   line-height: 1.4;
   top: 0;
-  font-size: 1.4vw;
+  font-size:4vw;
   padding-right:2vw;
   font-family: mfont;
   text-align:justify;
   font-weight: 200;
   }
-  h3 font{
-    font-size:1.18em;
-  }
-
-  .container{
-    padding-top:0px;
-    margin-top:0px;
   }
