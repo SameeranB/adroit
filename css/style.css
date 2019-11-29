@@ -2370,7 +2370,7 @@ padding-bottom:40px;
 @media screen and (max-width: 600px) {
 
   .jarvis2-img{
-    padding-top:50px;
+    padding-top:100px;
     display: block;
     margin-right:auto;
     background-position: 50px;
@@ -2389,9 +2389,8 @@ padding-bottom:40px;
 
     .jarvis-img{
       display: none;
-
     }
-    
+     
     
   .ai{
     padding-left:20px;
