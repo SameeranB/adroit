@@ -915,14 +915,13 @@ h2{
   
 .centered h3{
   font-family: mfont;
-  font-size:3vw;
+  font-size:2.8vw;
   align-items: top;
   overflow-y:auto;
   line-height: 1.65;
   justify-content: center;
   color:rgb(255, 255, 255);
   text-align:left;
-  padding-top:5vw;
   padding-bottom:1.8vw;
   padding-left:1vw;
   font-family:mfont;
@@ -939,4 +938,6 @@ h2{
   text-align:justify;
   font-weight: 200;
   }
-  
+  h3 font{
+    font-size:1.18em;
+  }
