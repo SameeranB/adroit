@@ -51,7 +51,6 @@ body {
 .solution{
   background-color:black;
   height:auto;
-  padding-bottom:100px;
 
 }
 
@@ -254,7 +253,6 @@ h1{
 
 h2{
     text-align:center;
-    padding-top:2px;
     font-size:4vw;
     font-family:mfont;
     color:rgb(255, 255, 255);
@@ -1310,15 +1308,15 @@ canvas {
 
 .topper{
   padding-top:140px;
-  padding-left:10vw;
+  text-align:right;
+  padding-left:5vw;
 }
 
 .topper2{
-  padding-top:135px;
-  margin-right:auto;
-  margin-left:auto;
-  display:block;
 
+  padding-top:140px;
+  padding-right:5vw;
+text-align:left;
 }
 
 
@@ -1328,6 +1326,7 @@ canvas {
     padding-left:50px;
 
   }
+  
   .topper{
     padding-right:50px;
   }
