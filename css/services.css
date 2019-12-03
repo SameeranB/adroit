@@ -1324,11 +1324,15 @@ text-align:left;
   
   .topper2{
     padding-left:50px;
+    padding-top:50px;
+    text-align:center;
 
   }
   
   .topper{
-    padding-right:50px;
+    text-align:center;
+  padding-top:50px;
+  padding-right:50px;
   }
   .ladybug h3{
     text-align:justify;
