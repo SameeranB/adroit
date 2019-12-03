@@ -1324,6 +1324,7 @@ text-align:left;
   
   .topper2{
     padding-left:50px;
+    padding-right:50px;
     padding-top:50px;
     text-align:center;
 
@@ -1333,6 +1334,8 @@ text-align:left;
     text-align:center;
   padding-top:50px;
   padding-right:50px;
+  padding-left:50px;
+
   }
   .ladybug h3{
     text-align:justify;
