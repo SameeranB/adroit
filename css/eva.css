@@ -914,11 +914,11 @@ h2{
 
   .centered h3{
     font-family: mfont;
-    font-size:2.9vw;
+    font-size:2.8vw;
     align-items: top;
     overflow-y:auto;
     line-height: 1.65;
-    justify-content: center;
+    text-align:center;
     color:rgb(255, 255, 255);
     text-align:left;
     padding-top:5vw;
