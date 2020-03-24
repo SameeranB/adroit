@@ -1479,3 +1479,9 @@ canvas {
         font-size: 4vw;
     }
 }
+
+::-webkit-scrollbar {
+    background-color: #ffff;
+    display: none;
+    height: 1px;
+}
